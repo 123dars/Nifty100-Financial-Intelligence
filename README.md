@@ -78,3 +78,10 @@ This repository is pre-configured for instant deployment on **Streamlit Communit
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Development Team
+
+This platform was architected and developed by:
+- **Priya Singh**
+- **Vinay Todkar**
+- **Darshan**
