@@ -84,4 +84,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This platform was architected and developed by:
 - **Priya Singh**
 - **Vinay Todkar**
-- **Darshan**
+- **Darshan B**
