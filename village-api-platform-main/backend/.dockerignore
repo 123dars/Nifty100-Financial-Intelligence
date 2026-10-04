@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.uv/
+
+# Env & secrets
+.env
+.env.local
+.env.*
+
+# Tests & logs
+.pytest_cache/
+.ruff_cache/
+logs/
+tests/
+
+# Misc
+.git/
+.gitignore
+Dockerfile
+.dockerignore

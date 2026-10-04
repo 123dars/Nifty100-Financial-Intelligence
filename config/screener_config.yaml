@@ -1,0 +1,227 @@
+version: 1
+screening:
+  observation: latest_available_year
+  order_by:
+  - ticker
+result_validation:
+  min_companies: 5
+  max_companies: 50
+missing_value_policy: fail
+metrics:
+  roe:
+    source_table: financial_ratios
+    source_column: return_on_equity_pct
+    type: numeric
+    description: "Return on equity (%) \u2014 computed Sprint 2"
+  net_profit_margin:
+    source_table: financial_ratios
+    source_column: net_profit_margin_pct
+    type: numeric
+    description: "Net profit margin (%) \u2014 computed Sprint 2"
+  operating_profit_margin:
+    source_table: financial_ratios
+    source_column: operating_profit_margin_pct
+    type: numeric
+    description: "Operating profit margin (%) \u2014 computed Sprint 2"
+  asset_turnover:
+    source_table: financial_ratios
+    source_column: asset_turnover
+    type: numeric
+    description: "Sales / total assets \u2014 computed Sprint 2"
+  debt_to_equity:
+    source_table: financial_ratios
+    source_column: debt_to_equity
+    type: numeric
+    description: "Borrowings / equity \u2014 D/E exception applies to financials"
+  interest_coverage_ratio:
+    source_table: financial_ratios
+    source_column: interest_coverage
+    type: numeric
+    description: "EBIT / interest \u2014 debt-free edge-case policy applies"
+  total_debt:
+    source_table: financial_ratios
+    source_column: total_debt_cr
+    type: numeric
+    description: "Total borrowings (Rs Cr) \u2014 authoritative debt-free signal"
+  pe_ratio:
+    source_table: financial_ratios_source
+    source_column: pe_ratio
+    type: numeric
+    description: "Price / earnings \u2014 vendor ratio (source table)"
+  pb_ratio:
+    source_table: financial_ratios_source
+    source_column: pb_ratio
+    type: numeric
+    description: "Price / book \u2014 vendor ratio (source table)"
+  dividend_yield:
+    source_table: financial_ratios_source
+    source_column: dividend_yield
+    type: numeric
+    description: "Dividend yield (%) \u2014 vendor ratio (source table)"
+  dividend_payout_ratio:
+    source_table: financial_ratios
+    source_column: dividend_payout_ratio_pct
+    type: numeric
+    description: "Dividend payout ratio (%) \u2014 derived PE * yield (Sprint 2)"
+  revenue_growth_5yr:
+    source_table: financial_ratios
+    source_column: revenue_cagr_5yr
+    type: numeric
+    description: "5-year sales CAGR (%) \u2014 computed Sprint 2"
+  profit_growth_5yr:
+    source_table: financial_ratios
+    source_column: pat_cagr_5yr
+    type: numeric
+    description: "5-year PAT CAGR (%) \u2014 computed Sprint 2"
+  eps_growth_5yr:
+    source_table: financial_ratios
+    source_column: eps_cagr_5yr
+    type: numeric
+    description: "5-year EPS CAGR (%) \u2014 computed Sprint 2"
+  earnings_per_share:
+    source_table: financial_ratios
+    source_column: earnings_per_share
+    type: numeric
+    description: "EPS (Rs) \u2014 from P&L via ratio engine"
+  free_cash_flow:
+    source_table: financial_ratios
+    source_column: free_cash_flow_cr
+    type: numeric
+    description: Free Cash Flow (Rs Cr)
+  market_cap:
+    source_table: computed
+    source_column: market_cap
+    type: numeric
+    description: Market Capitalization (Rs Cr)
+  net_profit:
+    source_table: profitandloss
+    source_column: net_profit
+    type: numeric
+    description: Net Profit (Rs Cr)
+  sales:
+    source_table: profitandloss
+    source_column: sales
+    type: numeric
+    description: Sales / Revenue (Rs Cr)
+  revenue_cagr_3yr:
+    source_table: computed
+    source_column: revenue_cagr_3yr
+    type: numeric
+    description: 3-year sales CAGR (%)
+  de_declining_yoy:
+    source_table: computed
+    source_column: de_declining_yoy
+    type: numeric
+    description: D/E declining year-over-year (1=Yes, 0=No)
+operators:
+- gt
+- gte
+- lt
+- lte
+- eq
+- neq
+exceptions:
+  debt_to_equity:
+    enabled: true
+    excluded_sectors:
+    - Financials
+    - Banking
+    - Financial Services
+    - NBFC
+    - Insurance
+    match: case_insensitive
+    action: waive_filter
+  interest_coverage_ratio:
+    debt_column: total_debt_cr
+    interest_column: interest_expense
+    debt_free_policy:
+      enabled: true
+      debt_zero_threshold: 0
+      zero_interest_policy: inf
+      negative_interest_policy: inf
+presets:
+  quality_compounder:
+    description: Quality Compounder
+    enabled: true
+    filters:
+    - metric: roe
+      operator: gt
+      value: 15
+    - metric: debt_to_equity
+      operator: lt
+      value: 1.0
+    - metric: free_cash_flow
+      operator: gt
+      value: 0
+    - metric: revenue_growth_5yr
+      operator: gt
+      value: 10
+  value_pick:
+    description: Value Pick
+    enabled: true
+    filters:
+    - metric: pe_ratio
+      operator: lt
+      value: 35
+    - metric: pb_ratio
+      operator: lt
+      value: 8
+    - metric: debt_to_equity
+      operator: lt
+      value: 2.0
+    - metric: dividend_yield
+      operator: gt
+      value: 1
+  growth_accelerator:
+    description: Growth Accelerator
+    enabled: true
+    filters:
+    - metric: profit_growth_5yr
+      operator: gt
+      value: 20
+    - metric: revenue_growth_5yr
+      operator: gt
+      value: 15
+    - metric: debt_to_equity
+      operator: lt
+      value: 2.0
+  dividend_champion:
+    description: Dividend Champion
+    enabled: true
+    filters:
+    - metric: dividend_yield
+      operator: gt
+      value: 2
+    - metric: dividend_payout_ratio
+      operator: lt
+      value: 80
+    - metric: free_cash_flow
+      operator: gt
+      value: 0
+  debt_free_blue_chip:
+    description: Debt-Free Blue Chip
+    enabled: true
+    filters:
+    - metric: debt_to_equity
+      operator: lte
+      value: 0.1
+      apply_exception: false
+    - metric: roe
+      operator: gt
+      value: 12
+    - metric: sales
+      operator: gt
+      value: 5000
+  turnaround_watch:
+    description: Turnaround Watch
+    enabled: true
+    filters:
+    - metric: revenue_cagr_3yr
+      operator: gt
+      value: 10
+    - metric: free_cash_flow
+      operator: gt
+      value: 0
+    - metric: de_declining_yoy
+      operator: eq
+      value: 1

@@ -1,0 +1,1170 @@
+
+/* =========================================================
+   VILLAGE API — ADMIN PLATFORM THEME
+   Visual-only theme. No application logic is changed.
+   ========================================================= */
+
+:root {
+  --village-green: #007a63;
+  --village-green-dark: #005f4d;
+  --village-green-deep: #063b32;
+  --village-green-soft: #e8f5f0;
+  --village-cream: #fbfaf5;
+  --village-bg: #f3f7f4;
+  --village-border: #dce8e2;
+  --village-text: #17332d;
+  --village-muted: #6d817b;
+  --village-gold: #d6a84f;
+  --village-danger: #c94b4b;
+  --village-shadow: 0 8px 28px rgba(6, 59, 50, 0.07);
+}
+
+/* ---------- Global ---------- */
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: var(--village-bg) !important;
+  color: var(--village-text);
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+/* ---------- Main application background ---------- */
+
+.min-h-screen.bg-slate-100 {
+  background:
+    radial-gradient(circle at 85% 0%, rgba(0, 122, 99, 0.07), transparent 28%),
+    linear-gradient(135deg, #f7faf7 0%, var(--village-bg) 55%, #eef5f1 100%) !important;
+}
+
+/* ---------- Sidebar ---------- */
+
+aside.w-64.bg-slate-950 {
+  width: 250px !important;
+  background:
+    linear-gradient(180deg, #041c18 0%, #063b32 55%, #052f28 100%) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 8px 0 30px rgba(0, 45, 37, 0.08);
+}
+
+aside.w-64.bg-slate-950 .p-6 {
+  padding: 24px 22px !important;
+  border-color: rgba(255, 255, 255, 0.09) !important;
+}
+
+aside.w-64.bg-slate-950 h1 {
+  color: #ffffff !important;
+  font-size: 22px !important;
+  letter-spacing: -0.03em;
+}
+
+aside.w-64.bg-slate-950 .text-slate-400 {
+  color: #a8c7be !important;
+}
+
+aside.w-64.bg-slate-950 nav {
+  padding: 18px 14px !important;
+}
+
+aside.w-64.bg-slate-950 nav button {
+  min-height: 44px;
+  margin-bottom: 6px;
+  border-radius: 12px !important;
+  color: #c9ddd7 !important;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+aside.w-64.bg-slate-950 nav button:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff !important;
+  transform: translateX(2px);
+}
+
+aside.w-64.bg-slate-950 nav button.bg-blue-600 {
+  background: linear-gradient(
+    135deg,
+    #008b70 0%,
+    var(--village-green) 100%
+  ) !important;
+  color: #ffffff !important;
+  box-shadow: 0 7px 18px rgba(0, 122, 99, 0.28);
+}
+
+aside.w-64.bg-slate-950 .absolute.bottom-0 {
+  border-color: rgba(255, 255, 255, 0.09) !important;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+aside.w-64.bg-slate-950 .text-slate-500 {
+  color: #8eb2a8 !important;
+}
+
+/* ---------- Main content ---------- */
+
+main.ml-64 {
+  margin-left: 250px !important;
+  background: transparent !important;
+}
+
+main.ml-64 > header {
+  height: 68px !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  border-bottom: 1px solid var(--village-border) !important;
+  box-shadow: 0 2px 15px rgba(6, 59, 50, 0.04);
+  backdrop-filter: blur(10px);
+}
+
+main.ml-64 > header .text-slate-500 {
+  color: var(--village-muted) !important;
+}
+
+main.ml-64 > header .bg-blue-600 {
+  background: var(--village-green) !important;
+}
+
+/* ---------- Page spacing ---------- */
+
+main.ml-64 .p-8 {
+  padding: 30px !important;
+}
+
+/* ---------- Headings ---------- */
+
+main h1,
+main h2,
+main h3 {
+  color: var(--village-text);
+  letter-spacing: -0.025em;
+}
+
+main h2.text-3xl {
+  font-size: 28px !important;
+  font-weight: 750 !important;
+}
+
+main p.text-slate-500 {
+  color: var(--village-muted) !important;
+}
+
+/* ---------- Cards / panels ---------- */
+
+main .bg-white {
+  background: rgba(255, 255, 255, 0.96) !important;
+}
+
+main .border-slate-200 {
+  border-color: var(--village-border) !important;
+}
+
+main .rounded-xl {
+  border-radius: 16px !important;
+}
+
+main .rounded-lg {
+  border-radius: 11px !important;
+}
+
+main .shadow,
+main .shadow-sm {
+  box-shadow: var(--village-shadow) !important;
+}
+
+/* ---------- Dashboard metric cards ---------- */
+
+main .grid .bg-white.rounded-xl {
+  box-shadow: var(--village-shadow);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+main .grid .bg-white.rounded-xl:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(6, 59, 50, 0.1) !important;
+}
+
+/* ---------- Blue branding → Village green ---------- */
+
+main .text-blue-600,
+main .text-blue-700 {
+  color: var(--village-green) !important;
+}
+
+main .text-blue-500 {
+  color: #078a71 !important;
+}
+
+main .bg-blue-600 {
+  background-color: var(--village-green) !important;
+}
+
+main .bg-blue-50 {
+  background-color: var(--village-green-soft) !important;
+}
+
+main .bg-blue-100 {
+  background-color: #d9eee7 !important;
+}
+
+main .border-blue-200 {
+  border-color: #b9ded3 !important;
+}
+
+main .border-blue-500,
+main .border-blue-600 {
+  border-color: var(--village-green) !important;
+}
+
+/* ---------- Primary buttons ---------- */
+
+main button.bg-blue-600,
+main button.bg-blue-500 {
+  background: linear-gradient(
+    135deg,
+    #008a70 0%,
+    var(--village-green) 100%
+  ) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 5px 14px rgba(0, 122, 99, 0.18);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease;
+}
+
+main button.bg-blue-600:hover,
+main button.bg-blue-500:hover {
+  background: linear-gradient(
+    135deg,
+    #006d59 0%,
+    var(--village-green-dark) 100%
+  ) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(0, 122, 99, 0.25);
+}
+
+/* ---------- Form controls ---------- */
+
+main input,
+main select,
+main textarea {
+  border-color: #cfdfd9 !important;
+  background: #ffffff !important;
+  color: var(--village-text) !important;
+  border-radius: 10px !important;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease;
+}
+
+main input::placeholder,
+main textarea::placeholder {
+  color: #9aaca7 !important;
+}
+
+main input:focus,
+main select:focus,
+main textarea:focus {
+  outline: none !important;
+  border-color: var(--village-green) !important;
+  box-shadow: 0 0 0 3px rgba(0, 122, 99, 0.11) !important;
+}
+
+/* ---------- Tables ---------- */
+
+main table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+main table thead {
+  background: #f2f7f4 !important;
+}
+
+main table thead th {
+  color: #3d5b53 !important;
+  font-weight: 650 !important;
+  border-bottom: 1px solid var(--village-border);
+}
+
+main table tbody tr {
+  transition: background 140ms ease;
+}
+
+main table tbody tr:hover {
+  background: #f7fbf9 !important;
+}
+
+main table tbody td {
+  color: #29463f;
+}
+
+main table code {
+  color: #075d4c;
+}
+
+/* ---------- Status pills ---------- */
+
+main .bg-green-50 {
+  background: #e7f6ef !important;
+}
+
+main .text-green-700 {
+  color: #087353 !important;
+}
+
+main .bg-red-50 {
+  background: #fff0ef !important;
+}
+
+main .text-red-700 {
+  color: #b53d3d !important;
+}
+
+main .bg-yellow-50,
+main .bg-amber-50 {
+  background: #fff8e8 !important;
+}
+
+main .text-yellow-700,
+main .text-amber-700,
+main .text-amber-800,
+main .text-amber-900 {
+  color: #8b661f !important;
+}
+
+/* ---------- Secondary buttons ---------- */
+
+main button.border {
+  border-color: #c9dad4 !important;
+  color: #285048;
+  background: #ffffff;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+main button.border:hover {
+  background: #f1f7f4 !important;
+  border-color: #9dc8bb !important;
+  transform: translateY(-1px);
+}
+
+/* Keep destructive actions recognizable */
+
+main button.border-red-200,
+main button.text-red-600,
+main button.text-red-700 {
+  color: var(--village-danger) !important;
+}
+
+main button.border-red-200:hover {
+  background: #fff3f2 !important;
+  border-color: #efb9b5 !important;
+}
+
+/* ---------- Charts ---------- */
+
+.recharts-cartesian-grid line {
+  stroke: #e3ece8 !important;
+}
+
+.recharts-text {
+  fill: #607770 !important;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  border: 1px solid var(--village-border) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 10px 25px rgba(6, 59, 50, 0.1) !important;
+}
+
+/* ---------- API credential panel ---------- */
+
+main .bg-amber-50 {
+  background: linear-gradient(135deg, #fffaf0, #fffdf8) !important;
+  border-color: #ead6a7 !important;
+}
+
+main .bg-amber-50 code {
+  color: #5f4b20 !important;
+}
+
+/* ---------- Links ---------- */
+
+main a {
+  color: var(--village-green);
+}
+
+main a:hover {
+  color: var(--village-green-dark);
+}
+
+/* ---------- Modal / overlay ---------- */
+
+main .fixed.inset-0 {
+  background: rgba(6, 35, 29, 0.48) !important;
+  backdrop-filter: blur(3px);
+}
+
+main .fixed.inset-0 > div {
+  box-shadow: 0 25px 70px rgba(4, 35, 29, 0.22) !important;
+}
+
+/* ---------- Notification/profile accents ---------- */
+
+main header button.relative {
+  transition: transform 160ms ease;
+}
+
+main header button.relative:hover {
+  transform: scale(1.06);
+}
+
+/* ---------- Scrollbar ---------- */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a7c5bb transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #a7c5bb;
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #6fa494;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  aside.w-64.bg-slate-950 {
+    width: 210px !important;
+  }
+
+  main.ml-64 {
+    margin-left: 210px !important;
+  }
+
+  main.ml-64 .p-8 {
+    padding: 22px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  aside.w-64.bg-slate-950 {
+    width: 72px !important;
+  }
+
+  aside.w-64.bg-slate-950 h1,
+  aside.w-64.bg-slate-950 .text-slate-400,
+  aside.w-64.bg-slate-950 nav button span:last-child,
+  aside.w-64.bg-slate-950 .absolute.bottom-0 {
+    display: none !important;
+  }
+
+  aside.w-64.bg-slate-950 nav button {
+    justify-content: center;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  main.ml-64 {
+    margin-left: 72px !important;
+  }
+
+  main.ml-64 > header {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  main.ml-64 .p-8 {
+    padding: 16px !important;
+  }
+}
+
+
+/* =========================================================
+   VILLAGE API — PREMIUM POLISH
+   Design-only layer: functionality and behavior unchanged.
+   ========================================================= */
+
+/* Brand tokens */
+:root {
+  --va-green: #007a63;
+  --va-green-2: #008c70;
+  --va-green-dark: #045847;
+  --va-green-deep: #063b32;
+  --va-green-pale: #edf8f4;
+  --va-cream: #fbfaf5;
+  --va-surface: #ffffff;
+  --va-page: #f4f8f5;
+  --va-border: #dce9e3;
+  --va-text: #15352e;
+  --va-muted: #71857f;
+  --va-gold: #d3a54a;
+  --va-shadow-sm: 0 4px 14px rgba(6, 59, 50, .055);
+  --va-shadow-md: 0 10px 30px rgba(6, 59, 50, .085);
+  --va-shadow-lg: 0 18px 48px rgba(6, 59, 50, .12);
+}
+
+/* Page background */
+body {
+  background: var(--va-page) !important;
+}
+
+.min-h-screen.bg-slate-100 {
+  background:
+    radial-gradient(circle at 82% 4%, rgba(0, 122, 99, .085), transparent 23%),
+    radial-gradient(circle at 8% 92%, rgba(211, 165, 74, .045), transparent 20%),
+    linear-gradient(135deg, #f8fbf8 0%, #f2f7f4 58%, #edf5f1 100%) !important;
+}
+
+/* Sidebar premium treatment */
+aside.w-64.bg-slate-950 {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 30% 0%, rgba(0, 140, 112, .18), transparent 27%),
+    linear-gradient(180deg, #031b17 0%, #063b32 56%, #042d26 100%) !important;
+  box-shadow: 10px 0 35px rgba(2, 42, 35, .12);
+}
+
+aside.w-64.bg-slate-950::after {
+  content: "";
+  position: absolute;
+  left: -80px;
+  bottom: 90px;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.055);
+  box-shadow:
+    0 0 0 28px rgba(255,255,255,.018),
+    0 0 0 56px rgba(255,255,255,.012);
+  pointer-events: none;
+}
+
+aside.w-64.bg-slate-950 .p-6 {
+  position: relative;
+  z-index: 2;
+  padding: 25px 22px 22px !important;
+}
+
+aside.w-64.bg-slate-950 h1 {
+  font-size: 23px !important;
+  font-weight: 800 !important;
+  letter-spacing: -.045em;
+}
+
+aside.w-64.bg-slate-950 h1::first-letter {
+  color: #77d6bd;
+}
+
+aside.w-64.bg-slate-950 nav {
+  position: relative;
+  z-index: 2;
+  padding: 20px 13px !important;
+}
+
+aside.w-64.bg-slate-950 nav button {
+  position: relative;
+  min-height: 45px;
+  border: 1px solid transparent !important;
+  font-size: 14px;
+  font-weight: 520;
+  letter-spacing: -.005em;
+}
+
+aside.w-64.bg-slate-950 nav button.bg-blue-600 {
+  background:
+    linear-gradient(135deg, rgba(0, 155, 125, .96), rgba(0, 119, 97, .96)) !important;
+  border-color: rgba(133, 225, 204, .16) !important;
+  box-shadow:
+    0 8px 22px rgba(0, 122, 99, .25),
+    inset 0 1px 0 rgba(255,255,255,.12);
+}
+
+aside.w-64.bg-slate-950 nav button.bg-blue-600::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  bottom: 9px;
+  width: 3px;
+  border-radius: 0 4px 4px 0;
+  background: #c8f2e7;
+}
+
+aside.w-64.bg-slate-950 .absolute.bottom-0 {
+  background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.13)) !important;
+}
+
+/* Top header */
+main.ml-64 > header {
+  height: 70px !important;
+  background: rgba(255,255,255,.88) !important;
+  border-bottom: 1px solid rgba(220,233,227,.9) !important;
+  box-shadow: 0 3px 18px rgba(6,59,50,.045) !important;
+  backdrop-filter: blur(14px);
+}
+
+main.ml-64 > header button {
+  border-radius: 10px;
+}
+
+/* Content */
+main.ml-64 .p-8 {
+  padding: 32px !important;
+}
+
+main h1,
+main h2,
+main h3 {
+  color: var(--va-text);
+}
+
+main h2.text-3xl {
+  font-size: 29px !important;
+  line-height: 1.15 !important;
+  font-weight: 800 !important;
+}
+
+main h2.text-3xl + p,
+main h1 + p {
+  margin-top: 7px !important;
+}
+
+/* Generic panels */
+main .bg-white {
+  background: rgba(255,255,255,.96) !important;
+}
+
+main .border-slate-200 {
+  border-color: var(--va-border) !important;
+}
+
+main .rounded-xl {
+  border-radius: 17px !important;
+}
+
+main .rounded-lg {
+  border-radius: 11px !important;
+}
+
+/* Dashboard/stat cards */
+main .grid .bg-white.rounded-xl {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--va-border) !important;
+  box-shadow: var(--va-shadow-sm) !important;
+}
+
+main .grid .bg-white.rounded-xl::after {
+  content: "";
+  position: absolute;
+  right: -42px;
+  top: -42px;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background: rgba(0,122,99,.035);
+  pointer-events: none;
+}
+
+main .grid .bg-white.rounded-xl:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--va-shadow-md) !important;
+}
+
+/* Accent icon containers */
+main .bg-blue-50 {
+  background: var(--va-green-pale) !important;
+  color: var(--va-green) !important;
+}
+
+main .text-blue-600,
+main .text-blue-700 {
+  color: var(--va-green) !important;
+}
+
+/* Buttons */
+main button {
+  font-weight: 560;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+main button:active {
+  transform: translateY(0) scale(.985);
+}
+
+main button.bg-blue-600,
+main button.bg-blue-500 {
+  background:
+    linear-gradient(135deg, var(--va-green-2), var(--va-green)) !important;
+  box-shadow:
+    0 6px 16px rgba(0,122,99,.18),
+    inset 0 1px 0 rgba(255,255,255,.12);
+}
+
+main button.bg-blue-600:hover,
+main button.bg-blue-500:hover {
+  background:
+    linear-gradient(135deg, var(--va-green), var(--va-green-dark)) !important;
+  box-shadow:
+    0 9px 22px rgba(0,122,99,.24),
+    inset 0 1px 0 rgba(255,255,255,.1);
+}
+
+/* Form controls */
+main input,
+main select,
+main textarea {
+  min-height: 40px;
+  border: 1px solid #cfded8 !important;
+  box-shadow: inset 0 1px 2px rgba(6,59,50,.025);
+}
+
+main input:hover,
+main select:hover,
+main textarea:hover {
+  border-color: #a9c9bf !important;
+}
+
+main input:focus,
+main select:focus,
+main textarea:focus {
+  border-color: var(--va-green) !important;
+  box-shadow:
+    0 0 0 3px rgba(0,122,99,.095),
+    inset 0 1px 2px rgba(6,59,50,.025) !important;
+}
+
+/* Search/filter areas */
+main .bg-slate-50 {
+  background: #f5f9f7 !important;
+}
+
+main .border-slate-100 {
+  border-color: #e7efeb !important;
+}
+
+/* Tables */
+main table thead {
+  background:
+    linear-gradient(180deg, #f7faf8, #f1f6f3) !important;
+}
+
+main table thead th {
+  color: #48645c !important;
+  font-size: 11px !important;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+
+main table tbody tr {
+  background: rgba(255,255,255,.88);
+}
+
+main table tbody tr:hover {
+  background: #f4faf7 !important;
+}
+
+main table tbody td {
+  border-color: #e7efeb !important;
+}
+
+/* Status pills */
+main .rounded-full {
+  font-weight: 650;
+  letter-spacing: .01em;
+}
+
+/* Charts */
+.recharts-cartesian-grid line {
+  stroke: #e4ece8 !important;
+}
+
+.recharts-text {
+  fill: #657a73 !important;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: rgba(255,255,255,.98) !important;
+  border: 1px solid #dce9e3 !important;
+  border-radius: 12px !important;
+  padding: 10px 12px !important;
+  box-shadow: var(--va-shadow-md) !important;
+}
+
+/* Credential / warning panels */
+main .bg-amber-50 {
+  background:
+    linear-gradient(135deg, #fffaf0, #fffdf8) !important;
+  border-color: #ead8aa !important;
+  box-shadow: 0 6px 20px rgba(166,124,40,.06);
+}
+
+/* Modals */
+main .fixed.inset-0 {
+  background: rgba(4, 35, 29, .52) !important;
+  backdrop-filter: blur(4px);
+}
+
+main .fixed.inset-0 > div {
+  border: 1px solid rgba(255,255,255,.75);
+  box-shadow: var(--va-shadow-lg) !important;
+}
+
+/* Notification/profile dropdowns */
+main header .absolute,
+main header [class*="absolute"] {
+  border-color: var(--va-border) !important;
+  border-radius: 14px !important;
+  box-shadow: var(--va-shadow-lg) !important;
+}
+
+/* Focus accessibility */
+main button:focus-visible,
+main a:focus-visible,
+main input:focus-visible,
+main select:focus-visible,
+main textarea:focus-visible {
+  outline: 3px solid rgba(0,122,99,.18);
+  outline-offset: 2px;
+}
+
+/* Loading feel */
+@keyframes va-soft-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .55; }
+}
+
+main .animate-pulse {
+  animation: va-soft-pulse 1.8s ease-in-out infinite;
+}
+
+/* Mobile polish */
+@media (max-width: 1100px) {
+  aside.w-64.bg-slate-950 {
+    width: 210px !important;
+    min-width: 210px !important;
+  }
+
+  main.ml-64 {
+    margin-left: 210px !important;
+    width: calc(100% - 210px) !important;
+    flex: 0 0 calc(100% - 210px) !important;
+  }
+
+  main.ml-64 .p-8 {
+    padding: 24px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  aside.w-64.bg-slate-950 {
+    width: 72px !important;
+    min-width: 72px !important;
+  }
+
+  aside.w-64.bg-slate-950 h1,
+  aside.w-64.bg-slate-950 .text-slate-400,
+  aside.w-64.bg-slate-950 nav button span:last-child,
+  aside.w-64.bg-slate-950 .absolute.bottom-0 {
+    display: none !important;
+  }
+
+  aside.w-64.bg-slate-950 nav button {
+    justify-content: center;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  main.ml-64 {
+    margin-left: 72px !important;
+    width: calc(100% - 72px) !important;
+    flex: 0 0 calc(100% - 72px) !important;
+  }
+
+  main.ml-64 > header {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  main.ml-64 .p-8 {
+    padding: 15px !important;
+  }
+
+  main h2.text-3xl {
+    font-size: 24px !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL SIDEBAR + MAIN CONTENT LAYOUT
+   The sidebar in App.tsx is position: fixed.
+   Therefore the main area must reserve exactly the same width.
+   ========================================================= */
+
+:root {
+  --sidebar-width: 250px;
+}
+
+/* Desktop */
+aside.w-64.bg-slate-950 {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: var(--sidebar-width) !important;
+  min-width: var(--sidebar-width) !important;
+  max-width: var(--sidebar-width) !important;
+  box-sizing: border-box !important;
+  z-index: 40 !important;
+}
+
+main.ml-64 {
+  margin-left: var(--sidebar-width) !important;
+  width: calc(100% - var(--sidebar-width)) !important;
+  max-width: calc(100% - var(--sidebar-width)) !important;
+  min-width: 0 !important;
+  flex: none !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+}
+
+main.ml-64 > header {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+main.ml-64 > div {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Keep cards, grids and charts inside the main content width */
+main.ml-64 .grid {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+main.ml-64 .recharts-responsive-container {
+  max-width: 100% !important;
+}
+
+/* Prevent tables/content from creating a page-wide horizontal scrollbar */
+main.ml-64 table {
+  max-width: 100% !important;
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+  :root {
+    --sidebar-width: 210px;
+  }
+
+  aside.w-64.bg-slate-950 {
+    width: var(--sidebar-width) !important;
+    min-width: var(--sidebar-width) !important;
+    max-width: var(--sidebar-width) !important;
+  }
+
+  main.ml-64 {
+    margin-left: var(--sidebar-width) !important;
+    width: calc(100% - var(--sidebar-width)) !important;
+    max-width: calc(100% - var(--sidebar-width)) !important;
+  }
+
+  main.ml-64 .p-8 {
+    padding: 24px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  :root {
+    --sidebar-width: 72px;
+  }
+
+  aside.w-64.bg-slate-950 {
+    width: var(--sidebar-width) !important;
+    min-width: var(--sidebar-width) !important;
+    max-width: var(--sidebar-width) !important;
+  }
+
+  aside.w-64.bg-slate-950 h1,
+  aside.w-64.bg-slate-950 .text-slate-400,
+  aside.w-64.bg-slate-950 nav button span:last-child,
+  aside.w-64.bg-slate-950 .absolute.bottom-0 {
+    display: none !important;
+  }
+
+  aside.w-64.bg-slate-950 nav button {
+    justify-content: center !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  main.ml-64 {
+    margin-left: var(--sidebar-width) !important;
+    width: calc(100% - var(--sidebar-width)) !important;
+    max-width: calc(100% - var(--sidebar-width)) !important;
+  }
+
+  main.ml-64 > header {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  main.ml-64 .p-8 {
+    padding: 15px !important;
+  }
+
+  main h2.text-3xl {
+    font-size: 24px !important;
+  }
+}
+
+/* =========================================================
+   FINAL HORIZONTAL OVERFLOW FIX
+   ========================================================= */
+
+html,
+body,
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.min-h-screen.bg-slate-100 {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main.ml-64 {
+  overflow-x: hidden !important;
+}
+
+
+/* =========================================================
+   VILLAGE API — CHART VISUAL IDENTITY
+   Match Recharts to the login/admin green palette.
+   ========================================================= */
+
+:root {
+  --va-chart-green: #007a63;
+  --va-chart-green-dark: #045847;
+  --va-chart-green-light: #69bfae;
+  --va-chart-grid: #dfece7;
+  --va-chart-axis: #6d827b;
+}
+
+/* Grid and axes */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: var(--va-chart-grid) !important;
+  stroke-opacity: 0.85 !important;
+}
+
+.recharts-cartesian-axis-line,
+.recharts-cartesian-axis-tick-line {
+  stroke: #c9d9d3 !important;
+}
+
+.recharts-text {
+  fill: var(--va-chart-axis) !important;
+}
+
+/* Line charts */
+.recharts-line-curve {
+  stroke: var(--va-chart-green) !important;
+  stroke-width: 2.5px !important;
+}
+
+.recharts-line-dot {
+  fill: #ffffff !important;
+  stroke: var(--va-chart-green) !important;
+  stroke-width: 2px !important;
+}
+
+/* Bar charts */
+.recharts-bar-rectangle path,
+.recharts-bar-rectangle rect {
+  fill: var(--va-chart-green) !important;
+}
+
+.recharts-bar-rectangle:hover path,
+.recharts-bar-rectangle:hover rect {
+  fill: var(--va-chart-green-dark) !important;
+}
+
+/* Tooltip */
+.recharts-tooltip-wrapper {
+  filter: drop-shadow(0 12px 25px rgba(6, 59, 50, .12));
+}
+
+.recharts-default-tooltip {
+  background: rgba(255, 255, 255, .98) !important;
+  border: 1px solid #dce9e3 !important;
+  border-radius: 13px !important;
+  padding: 11px 14px !important;
+  box-shadow: 0 12px 30px rgba(6, 59, 50, .10) !important;
+}
+
+.recharts-tooltip-label {
+  color: var(--va-green-deep, #15352e) !important;
+  font-weight: 700 !important;
+}
+
+.recharts-tooltip-item {
+  color: var(--va-chart-green) !important;
+}
+
+/* Legend */
+.recharts-legend-item-text {
+  color: #526b63 !important;
+}
+
+/* Chart card breathing room */
+.recharts-wrapper {
+  border-radius: 14px;
+}

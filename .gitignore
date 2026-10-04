@@ -1,0 +1,22 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+data/processed/
+output/*.csv
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Exceptions for Streamlit Deployment
+!nifty100.db
+!output/capital_allocation.csv
+!data/market_cap.xlsx

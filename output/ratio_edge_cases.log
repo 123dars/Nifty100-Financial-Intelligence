@@ -1,0 +1,1511 @@
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.84289749881436, db has 28.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.84289749881436, db has 28.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0 - Category: Data source issue
+WARNING: OPM mismatch: computed 26.84289749881436, db has 28.0 - Category: Formula discrepancy
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0
+WARNING: OPM mismatch: computed 26.84289749881436, db has 28.0
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0
+WARNING: OPM mismatch: computed 26.84289749881436, db has 28.0
+WARNING: OPM mismatch: computed 34.38911302462817, db has 30.0
+WARNING: OPM mismatch: computed 30.58161350844278, db has 1353.0
+WARNING: OPM mismatch: computed 31.474168597630626, db has 2307.0
+WARNING: OPM mismatch: computed 31.36221426759492, db has 3097.0
+WARNING: OPM mismatch: computed 32.611983995315704, db has 3466.0
+WARNING: OPM mismatch: computed 53.450675766692115, db has -5715.0
+WARNING: OPM mismatch: computed 63.11708169506335, db has -10277.0
+WARNING: OPM mismatch: computed 49.385298075873855, db has -5447.0
+WARNING: OPM mismatch: computed 55.984673106090845, db has -9859.0
+WARNING: OPM mismatch: computed 50.119976004799035, db has -2510.0
+WARNING: OPM mismatch: computed 44.4691808777476, db has 3170.0
+WARNING: OPM mismatch: computed 34.15645108261707, db has 13857.0
+WARNING: OPM mismatch: computed 34.69264599658038, db has 11952.0
+WARNING: OPM mismatch: computed 32.49258160237389, db has 1367.0
+WARNING: OPM mismatch: computed 32.25099328675161, db has 1986.0
+WARNING: OPM mismatch: computed 32.59779338014042, db has 2867.0
+WARNING: OPM mismatch: computed 32.28463831790366, db has 3935.0
+WARNING: OPM mismatch: computed 29.501812084167252, db has 6310.0
+WARNING: OPM mismatch: computed 34.72738302874043, db has 7608.0
+WARNING: OPM mismatch: computed 40.63659880778315, db has 6314.0
+WARNING: OPM mismatch: computed 37.546221674409786, db has 9906.0
+WARNING: OPM mismatch: computed 30.65127623095313, db has 16018.0
+WARNING: OPM mismatch: computed 29.285818234737686, db has 19987.0
+WARNING: OPM mismatch: computed 30.047747104988748, db has 1006.0
+WARNING: OPM mismatch: computed 29.777821713664338, db has 809.0
+WARNING: OPM mismatch: computed 29.981075364577535, db has 902.0
+WARNING: OPM mismatch: computed 55.440075110810284, db has -11700.0
+WARNING: OPM mismatch: computed 43.28468958694039, db has -4372.0
+WARNING: OPM mismatch: computed 56.654941809970474, db has -9197.0
+WARNING: OPM mismatch: computed 48.79408762711223, db has -5414.0
+WARNING: OPM mismatch: computed 51.439254705621394, db has -11728.0
+WARNING: OPM mismatch: computed 51.22857065963344, db has -6957.0
+WARNING: OPM mismatch: computed 51.12488928255093, db has -2948.0
+WARNING: OPM mismatch: computed 40.45480037670762, db has 6329.0
+WARNING: OPM mismatch: computed 37.4889127294537, db has 4102.0
+WARNING: OPM mismatch: computed 21.182858820076316, db has 655.0
+WARNING: OPM mismatch: computed 24.351781652767247, db has -672.0
+WARNING: OPM mismatch: computed 23.513569032022456, db has -621.0
+WARNING: OPM mismatch: computed 40.38465905220373, db has -8008.0
+WARNING: OPM mismatch: computed 37.84885544057698, db has -5775.0
+WARNING: OPM mismatch: computed 61.874470915467406, db has -13350.0
+WARNING: OPM mismatch: computed 56.72874392609122, db has -11590.0
+WARNING: OPM mismatch: computed 53.87769046805603, db has -12867.0
+WARNING: OPM mismatch: computed 61.82938806883692, db has -18367.0
+WARNING: OPM mismatch: computed 58.39493584841533, db has -13657.0
+WARNING: OPM mismatch: computed 49.80147872154625, db has -9877.0
+WARNING: OPM mismatch: computed 41.753906568101414, db has -7745.0
+WARNING: OPM mismatch: computed 26.770428015564203, db has 472.0
+WARNING: OPM mismatch: computed 28.42329978652028, db has 578.0
+WARNING: OPM mismatch: computed 28.559892328398384, db has 696.0
+WARNING: OPM mismatch: computed 30.042714760322735, db has 899.0
+WARNING: OPM mismatch: computed 28.163613123135917, db has 1143.0
+WARNING: OPM mismatch: computed 26.101816873538407, db has 1451.0
+WARNING: OPM mismatch: computed 22.960045019696118, db has 1888.0
+WARNING: OPM mismatch: computed 27.789256198347108, db has 1699.0
+WARNING: OPM mismatch: computed 30.397579046227698, db has 2094.0
+WARNING: OPM mismatch: computed 28.83326763894363, db has 2924.0
+WARNING: OPM mismatch: computed 28.104625892579943, db has 3515.0
+WARNING: OPM mismatch: computed 28.10102802275218, db has 4548.0
+WARNING: OPM mismatch: computed 73.25763981157145, db has 2214.0
+WARNING: OPM mismatch: computed 78.89511451882434, db has 2147.0
+WARNING: OPM mismatch: computed 80.94314676068753, db has 2163.0
+WARNING: OPM mismatch: computed 82.01595358955765, db has 2480.0
+WARNING: OPM mismatch: computed 82.65944143393081, db has 2496.0
+WARNING: OPM mismatch: computed 81.3473211929269, db has 2826.0
+WARNING: OPM mismatch: computed 81.07199608849774, db has 3097.0
+WARNING: OPM mismatch: computed 81.28648143824422, db has 3206.0
+WARNING: OPM mismatch: computed 77.80271398747391, db has 4252.0
+WARNING: OPM mismatch: computed 79.08376602490466, db has 4553.0
+WARNING: OPM mismatch: computed 77.90621017008746, db has 5027.0
+WARNING: OPM mismatch: computed 75.59168153953597, db has 6291.0
+WARNING: OPM mismatch: computed 73.51946473800565, db has 18087.0
+WARNING: OPM mismatch: computed 74.83854520734195, db has 17766.0
+WARNING: OPM mismatch: computed 76.60145709660011, db has 17343.0
+WARNING: OPM mismatch: computed 75.96486045645446, db has 18714.0
+WARNING: OPM mismatch: computed 84.0745100046057, db has 12448.0
+WARNING: OPM mismatch: computed 89.10421847871991, db has 9288.0
+WARNING: OPM mismatch: computed 74.88904062820076, db has 25007.0
+WARNING: OPM mismatch: computed 77.53955037468776, db has 21581.0
+WARNING: OPM mismatch: computed 79.3081998533757, db has 18628.0
+WARNING: OPM mismatch: computed 77.46889668687052, db has 24721.0
+WARNING: OPM mismatch: computed 68.00624945751237, db has 44232.0
+WARNING: OPM mismatch: computed 66.29380849329698, db has 47971.0
+WARNING: OPM mismatch: computed 35.22210758205293, db has 3534.0
+WARNING: OPM mismatch: computed 31.742450945834804, db has 5602.0
+WARNING: OPM mismatch: computed 31.903051355938892, db has 7214.0
+WARNING: OPM mismatch: computed 31.751686140400874, db has 9037.0
+WARNING: OPM mismatch: computed 32.558583887213224, db has 11374.0
+WARNING: OPM mismatch: computed 34.62620767282619, db has 13374.0
+WARNING: OPM mismatch: computed 33.145367579235646, db has 16592.0
+WARNING: OPM mismatch: computed 37.203839952859916, db has 14593.0
+WARNING: OPM mismatch: computed 40.80605513722074, db has 16848.0
+WARNING: OPM mismatch: computed 41.60560852165725, db has 20795.0
+WARNING: OPM mismatch: computed 36.91977933167012, db has 29932.0
+WARNING: OPM mismatch: computed 61.41252040373843, db has -44685.0
+WARNING: OPM mismatch: computed 96.26600284495022, db has 525.0
+WARNING: OPM mismatch: computed 96.47559128509845, db has 605.0
+WARNING: OPM mismatch: computed 96.78853573397024, db has 874.0
+WARNING: OPM mismatch: computed 94.74119398048619, db has 953.0
+WARNING: OPM mismatch: computed 96.82513786014944, db has 972.0
+WARNING: OPM mismatch: computed 96.67079975201489, db has 1074.0
+WARNING: OPM mismatch: computed 96.87298931926392, db has 1215.0
+WARNING: OPM mismatch: computed 96.11640571817563, db has 1141.0
+WARNING: OPM mismatch: computed 98.27480147634493, db has 1235.0
+WARNING: OPM mismatch: computed 98.84098560915294, db has 778.0
+WARNING: OPM mismatch: computed 99.88605124845101, db has 80.0
+WARNING: OPM mismatch: computed 99.47675449833469, db has 531.0
+WARNING: OPM mismatch: computed 85.94263105835806, db has 3553.0
+WARNING: OPM mismatch: computed 87.21766286585809, db has 3520.0
+WARNING: OPM mismatch: computed 84.45373721755631, db has 4424.0
+WARNING: OPM mismatch: computed 83.9741349178609, db has 4585.0
+WARNING: OPM mismatch: computed 83.56645511122065, db has 5334.0
+WARNING: OPM mismatch: computed 85.2079715051073, db has 5025.0
+WARNING: OPM mismatch: computed 86.0873726669857, db has 4070.0
+WARNING: OPM mismatch: computed 86.89557156238897, db has 4058.0
+WARNING: OPM mismatch: computed 88.98176034651958, db has 3256.0
+WARNING: OPM mismatch: computed 88.00281046899701, db has 4099.0
+WARNING: OPM mismatch: computed 86.14676228532112, db has 5235.0
+WARNING: OPM mismatch: computed 90.39941141994937, db has 7699.0
+WARNING: OPM mismatch: computed 90.85010547921775, db has 8024.0
+WARNING: OPM mismatch: computed 91.51906867022755, db has 8844.0
+WARNING: OPM mismatch: computed 92.12426209256877, db has 7778.0
+WARNING: OPM mismatch: computed 87.70562165615267, db has 12317.0
+WARNING: OPM mismatch: computed 88.1102245991162, db has 13695.0
+WARNING: OPM mismatch: computed 88.11800033705627, db has 15511.0
+WARNING: OPM mismatch: computed 87.89104821235102, db has 14306.0
+WARNING: OPM mismatch: computed 86.69853342221684, db has 17559.0
+WARNING: OPM mismatch: computed 85.46747394378112, db has 28347.0
+WARNING: OPM mismatch: computed 89.84507307282192, db has 22666.0
+WARNING: OPM mismatch: computed 88.94620349876368, db has 23872.0
+WARNING: OPM mismatch: computed 84.37268552806991, db has 4220.0
+WARNING: OPM mismatch: computed 83.72100978312923, db has 4759.0
+WARNING: OPM mismatch: computed 83.07268860252721, db has 5412.0
+WARNING: OPM mismatch: computed 81.63797924563475, db has 5910.0
+WARNING: OPM mismatch: computed 80.91791809902901, db has 6328.0
+WARNING: OPM mismatch: computed 78.90279926853285, db has 7499.0
+WARNING: OPM mismatch: computed 77.41032816077335, db has 8880.0
+WARNING: OPM mismatch: computed 75.21303069150139, db has 9861.0
+WARNING: OPM mismatch: computed 75.27855745513311, db has 11626.0
+WARNING: OPM mismatch: computed 75.48526103039318, db has 12857.0
+WARNING: OPM mismatch: computed 76.64740838560581, db has 14147.0
+WARNING: OPM mismatch: computed 76.31672482874498, db has 14659.0
+WARNING: OPM mismatch: computed 70.58928372507519, db has -15085.0
+WARNING: OPM mismatch: computed 66.39584470179268, db has -13084.0
+WARNING: OPM mismatch: computed 70.52980132450331, db has -16120.0
+WARNING: OPM mismatch: computed 88.12358754680069, db has -26955.0
+WARNING: OPM mismatch: computed 104.76042008532984, db has -37737.0
+WARNING: OPM mismatch: computed 117.12300119043788, db has -44906.0
+WARNING: OPM mismatch: computed 116.38326248228724, db has -50971.0
+WARNING: OPM mismatch: computed 100.6188410580414, db has -45190.0
+WARNING: OPM mismatch: computed 102.40682794432668, db has -44805.0
+WARNING: OPM mismatch: computed 84.68770635278334, db has -26558.0
+WARNING: OPM mismatch: computed 72.57469004765956, db has -17341.0
+WARNING: OPM mismatch: computed 62.41380175029464, db has -14152.0
+WARNING: OPM mismatch: computed 104.46161515453637, db has -178.0
+WARNING: OPM mismatch: computed 105.19301470588236, db has -225.0
+WARNING: OPM mismatch: computed 105.24326877657062, db has -221.0
+WARNING: OPM mismatch: computed 87.33631692358695, db has 764.0
+WARNING: OPM mismatch: computed 87.77925531914894, db has 919.0
+WARNING: OPM mismatch: computed 103.79050925925925, db has -262.0
+WARNING: OPM mismatch: computed 85.04882200125414, db has 1669.0
+WARNING: OPM mismatch: computed 84.61404879742989, db has 1772.0
+WARNING: OPM mismatch: computed 82.97015048104596, db has 2072.0
+WARNING: OPM mismatch: computed 93.660302009235, db has 1016.0
+WARNING: OPM mismatch: computed 92.92906690534795, db has 1264.0
+WARNING: OPM mismatch: computed 87.42129155073948, db has 2577.0
+WARNING: OPM mismatch: computed 96.27965043695382, db has 745.0
+WARNING: OPM mismatch: computed 93.12865497076024, db has 1504.0
+WARNING: OPM mismatch: computed 95.1963544538937, db has 1655.0
+WARNING: OPM mismatch: computed 91.16984028010936, db has 1842.0
+WARNING: OPM mismatch: computed 95.22424370636767, db has 1806.0
+WARNING: OPM mismatch: computed 95.44190358467245, db has 1771.0
+WARNING: OPM mismatch: computed 98.69522224634011, db has 541.0
+WARNING: OPM mismatch: computed 101.51724137931035, db has -319.0
+WARNING: OPM mismatch: computed 100.46885143420452, db has -390.0
+WARNING: OPM mismatch: computed 103.40444276634572, db has -2163.0
+WARNING: OPM mismatch: computed 103.48072427592219, db has -1757.0
+WARNING: OPM mismatch: computed 102.02531365231931, db has -1829.0
+WARNING: OPM mismatch: computed 90.7095512332935, db has 855.0
+WARNING: OPM mismatch: computed 96.10506431591257, db has 433.0
+WARNING: OPM mismatch: computed 86.33393177737881, db has 1904.0
+WARNING: OPM mismatch: computed 80.39653035935564, db has 3164.0
+WARNING: OPM mismatch: computed 88.06243272335846, db has 2219.0
+WARNING: OPM mismatch: computed 86.8381043395161, db has 3030.0
+WARNING: OPM mismatch: computed 100.52988033828123, db has -151.0
+WARNING: OPM mismatch: computed 88.62009173285603, db has 4069.0
+WARNING: OPM mismatch: computed 99.97950959633904, db has 2.0
+WARNING: OPM mismatch: computed 97.84813543635032, db has 558.0
+WARNING: OPM mismatch: computed 88.02483194357713, db has 6521.0
+WARNING: OPM mismatch: computed 76.29890862649484, db has 16331.0
+WARNING: OPM mismatch: computed 27.881999140770443, db has 286.0
+WARNING: OPM mismatch: computed 30.95468863581294, db has 335.0
+WARNING: OPM mismatch: computed 32.32562938505985, db has 288.0
+WARNING: OPM mismatch: computed 35.27628032345013, db has 329.0
+WARNING: OPM mismatch: computed 39.455782312925166, db has 379.0
+WARNING: OPM mismatch: computed 37.931832648573575, db has 942.0
+WARNING: OPM mismatch: computed 41.70073222227214, db has -437.0
+WARNING: OPM mismatch: computed 43.81405690859187, db has -553.0
+WARNING: OPM mismatch: computed 55.16206896551724, db has -2469.0
+WARNING: OPM mismatch: computed 51.39186295503212, db has -839.0
+WARNING: OPM mismatch: computed 42.68862736471624, db has 2067.0
+WARNING: OPM mismatch: computed 38.55469091544986, db has 2978.0
+WARNING: OPM mismatch: computed 86.66666666666667, db has 88.0
+WARNING: OPM mismatch: computed 60.92452482007751, db has -1789.0
+WARNING: OPM mismatch: computed 58.84365092608043, db has -1379.0
+WARNING: OPM mismatch: computed 72.96343569337037, db has -3366.0
+WARNING: OPM mismatch: computed 56.567983531026364, db has -2263.0
+WARNING: OPM mismatch: computed 66.439706145852, db has -3965.0
+WARNING: OPM mismatch: computed 66.86960327881899, db has -4141.0
+WARNING: OPM mismatch: computed 66.2331132043847, db has -5114.0
+WARNING: OPM mismatch: computed 67.44936368524826, db has -5005.0
+WARNING: OPM mismatch: computed 90.83485679463742, db has -9958.0
+WARNING: OPM mismatch: computed 90.98426246999199, db has -8512.0
+WARNING: OPM mismatch: computed 79.44058266707789, db has -5746.0
+WARNING: OPM mismatch: computed 83.66733645109092, db has -13382.0
+WARNING: OPM mismatch: computed 26.84289749881436, db has 28.0
