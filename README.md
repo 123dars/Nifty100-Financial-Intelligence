@@ -53,6 +53,13 @@ Nifty100-Financial-Intelligence/
 └── requirements.txt       # Cloud deployment dependencies
 ```
 
+## 🚀 Recent Updates (Sprint 5)
+
+Sprint 5 focused on NLP enhancements, automated cash flow intelligence, and batch PDF report generation. Key features added:
+- **NLP Text Parser & Rule Engine**: Automated generation of qualitative Pros/Cons tags using 24 financial rules with confidence scoring (`src/nlp/pros_cons_generator.py`).
+- **Cash Flow Intelligence**: Advanced analytics categorizing CFO quality, CapEx intensity, and capital allocation patterns, while flagging distress and deleveraging signals (`src/analytics/cashflow_kpis.py`).
+- **Automated PDF Reporting**: Batch generation of 90 Company Tearsheets, 10 Sector Reports, and a Portfolio Summary using `ReportLab` and `matplotlib` (`src/reports/`). All PDFs feature automated text-wrapping, dual-axis charts, and Cash Flow waterfalls.
+
 ## 💻 Local Installation
 
 To run this platform locally on your machine:
