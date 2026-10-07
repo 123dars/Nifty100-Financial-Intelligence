@@ -23,7 +23,7 @@ The **Nifty 100 Financial Intelligence Platform** is a full-stack, automated fin
 
 Built entirely in Python, this platform synthesizes data from complex Excel models into a blazing-fast SQLite database, wrapped in a beautiful, enterprise-themed Streamlit UI.
 
-### 🔴 [Live Dashboard Demo](https://nifty100-financial-intelligence-uzbuqc8l7k8pyqjanjijfy.streamlit.app/)
+### 🔴 [Live Dashboard Demo](https://nifty100-financial-intelligence.streamlit.app/)
  
 
 ## ✨ Key Features
