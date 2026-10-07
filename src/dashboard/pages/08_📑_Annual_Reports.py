@@ -15,7 +15,7 @@ ticker = selected_company.split("(")[-1].strip(")")
 cid = comps[comps['ticker'] == ticker]['company_id'].iloc[0]
 
 conn = sqlite3.connect('nifty100.db')
-docs = pd.read_sql_query("SELECT * FROM documents WHERE company_id = ? AND document_type = 'annual_report' ORDER BY document_date DESC", conn, params=[int(cid)])
+docs = pd.read_sql_query("SELECT * FROM documents WHERE company_id = ? AND document_type = 'Annual Report' ORDER BY document_date DESC", conn, params=[int(cid)])
 conn.close()
 
 if docs.empty:
