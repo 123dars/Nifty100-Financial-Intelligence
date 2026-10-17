@@ -51,6 +51,9 @@ The **N100 Financial Intelligence Platform** is an end-to-end, institutional-gra
 * [🧠 Sprint 5 — Cash Flow Intelligence, NLP & Automated PDF Reporting](#-sprint-5--cash-flow-intelligence-nlp--automated-pdf-reporting)
 * [🚀 Sprint 6 — Stock Clustering, REST API, QA Suite & Final Sign-Off](#-sprint-6--stock-clustering-rest-api-qa-suite--final-sign-off)
 * [📋 Unified End-to-End Execution Runbook](#-unified-end-to-end-execution-runbook)
+* [📌 Project Deliverables Tracker (23 Deliverables)](#-project-deliverables-tracker-23-deliverables)
+* [⚡ Quick Reference — Key Commands](#-quick-reference--key-commands)
+* [📜 Important Project Rules](#-important-project-rules)
 * [🛡️ Project Acceptance Gates Verification Matrix (20/20)](#-project-acceptance-gates-verification-matrix-2020)
 * [📁 Repository Structure](#-repository-structure)
 * [👥 Development Team](#-development-team)
@@ -511,6 +514,69 @@ python src/api/main.py
 # Terminal 2: Streamlit Interactive Dashboard
 streamlit run src/dashboard/app.py
 ```
+
+---
+
+## 📌 Project Deliverables Tracker (23 Deliverables)
+
+All 23 mandatory project deliverables across Sprints 1 to 6 have been completed, verified, and audited for final Day 45 project sign-off:
+
+| ID | Sprint | Deliverable Description | Physical Location | Status |
+|:---:|:---:|---|---|:---:|
+| **D-01** | Sprint 1 | Relational SQLite Database | `data/nifty100.db` (and `./nifty100.db`) | ✅ **Done** |
+| **D-02** | Sprint 1 | Load Audit Log | `output/load_audit.csv` | ✅ **Done** |
+| **D-03** | Sprint 1 | Validation Failures / Warnings Log | `output/validation_failures.csv` | ✅ **Done** |
+| **D-04** | Sprint 1 | Exploratory SQL Analysis Queries | `notebooks/exploratory_queries.sql` | ✅ **Done** |
+| **D-05** | Sprint 2 | Financial Ratios Table (50+ KPIs) | `data/nifty100.db → financial_ratios` | ✅ **Done** |
+| **D-06** | Sprint 2 | Capital Allocation 8-Pattern Dataset | `output/capital_allocation.csv` | ✅ **Done** |
+| **D-07** | Sprint 3 | Stock Screener Excel Export | `output/screener_output.xlsx` | ✅ **Done** |
+| **D-08** | Sprint 3 | Screener Strategy Declarative Config | `config/screener_config.yaml` | ✅ **Done** |
+| **D-09** | Sprint 3 | Peer Group Comparison Workbook | `output/peer_comparison.xlsx` | ✅ **Done** |
+| **D-10** | Sprint 3 | 92 Company Peer Radar Plots | `reports/radar_charts/` | ✅ **Done** |
+| **D-11** | Sprint 4 | Streamlit Dashboard (8 Screens + Cluster Analysis) | `src/dashboard/app.py` | ✅ **Done** |
+| **D-12** | Sprint 4 | Valuation Multiples & Flags Summary | `output/valuation_summary.xlsx` | ✅ **Done** |
+| **D-13** | Sprint 5 | Cash Flow Intelligence Workbook | `output/cashflow_intelligence.xlsx` | ✅ **Done** |
+| **D-14** | Sprint 5 | Algorithmic Pros & Cons Dataset | `output/pros_cons_generated.csv` | ✅ **Done** |
+| **D-15** | Sprint 5 | NLP Parsed Historical Metrics | `output/analysis_parsed.csv` | ✅ **Done** |
+| **D-16** | Sprint 5 | Publication PDF Company Tearsheets | `reports/tearsheets/` (90 PDFs) | ✅ **Done** |
+| **D-17** | Sprint 5 | Sector Summary PDF Research Briefs | `reports/sector/` (10 PDFs) | ✅ **Done** |
+| **D-18** | Sprint 5 | Nifty 100 Portfolio Summary PDF | `reports/portfolio/portfolio_summary.pdf` | ✅ **Done** |
+| **D-19** | Sprint 6 | KMeans Stock Clustering Archetypes | `output/cluster_labels.csv` | ✅ **Done** |
+| **D-20** | Sprint 6 | FastAPI REST Backend (16+ Endpoints) | `src/api/main.py` | ✅ **Done** |
+| **D-21** | Sprint 6 | Automated Test Report (239 Passed) | `reports/pytest_report.html` | ✅ **Done** |
+| **D-22** | Sprint 6 | Comprehensive Analyst Guide (12 Pages) | `docs/analyst_guide.pdf` | ✅ **Done** |
+| **D-23** | Sprint 6 | Formal Acceptance Gates Checklist | `docs/acceptance_checklist.pdf` | ✅ **Done** |
+
+---
+
+## ⚡ Quick Reference — Key Commands
+
+The platform provides an automated `Makefile` with standard CLI commands:
+
+| Command | Action Description | Target Output / Service |
+|---|---|---|
+| `make load` | Ingest and validate all raw Excel workbooks (Day 05) | `data/nifty100.db`, `output/load_audit.csv` |
+| `make ratios` | Generate and populate the `financial_ratios` table | `nifty100.db → financial_ratios`, `output/capital_allocation.csv` |
+| `make test` | Run full pytest suite with HTML report generation | `reports/pytest_report.html` (239 passed, 0 failures) |
+| `make report` | Batch generate company tearsheets, sector PDFs & portfolio report | `reports/tearsheets/`, `reports/sector/`, `reports/portfolio/` |
+| `make dashboard` | Launch the Streamlit Interactive Analytical Dashboard | `http://localhost:8501` |
+| `make api` | Launch the FastAPI REST Backend server | `http://localhost:8000` (Swagger UI at `/docs`) |
+| `make clean` | Remove `__pycache__`, `.pytest_cache`, and temporary `.pyc` files | Project caches cleaned (Database untouched) |
+
+---
+
+## 📜 Important Project Rules
+
+All pipeline components, analytics scripts, and test suites strictly comply with the following 8 fundamental platform rules:
+
+1. **Header Offset Specification:** Always use `pd.read_excel(path, header=1)` for all core Excel source files.
+2. **Company Identifier Standardization:** Always normalize `company_id` (trim whitespace and convert to uppercase) prior to performing database joins.
+3. **Monetary Unit Uniformity:** All monetary balances and timeseries are strictly denominated in **INR Crore** (₹ Cr).
+4. **Financial Sector Exemption:** Always skip the `Financials` sector (Banking, NBFC, Insurance) when evaluating the Debt-to-Equity ($D/E$) screener filter.
+5. **CAGR Base-Year Handling:** If a CAGR calculation encounters a negative base year, return `TURNAROUND` instead of computing an undefined or misleading rate.
+6. **Zero-Interest Protection:** If Interest Expense equals zero ($Interest = 0$), display `Debt Free` instead of performing division by zero.
+7. **Simulated Dataset Disclaimers:** Clearly label simulated datasets (`stock_prices`, `market_cap`) as **SIMULATED** in dashboards, visual plots, and reports.
+8. **Pre-Commit Verification:** Run `make test` before every Git commit. **Zero test failures are mandatory** across the entire test suite.
 
 ---
 

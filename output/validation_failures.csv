@@ -1,0 +1,8 @@
+rule_id,rule_name,table_name,company_id,year,description,severity
+DQ-06,Sales Sanity,profitandloss,COMP_002,2014,Negative or zero sales record found in legacy source,WARNING
+DQ-09,EPS Sign Consistency,profitandloss,COMP_015,2017,EPS and PAT sign divergence due to exceptional items,WARNING
+DQ-09,EPS Sign Consistency,profitandloss,COMP_042,2019,EPS and PAT sign divergence due to discontinued operations,WARNING
+DQ-09,EPS Sign Consistency,profitandloss,COMP_078,2021,EPS and PAT sign divergence due to deferred tax adjustments,WARNING
+DQ-10,History Coverage,profitandloss,JIOFIN,2024,Fewer than 5 years of P&L history available (Demerger listing),WARNING
+DQ-10,History Coverage,balancesheet,JIOFIN,2024,Limited balance sheet history available post-listing,WARNING
+DQ-10,History Coverage,cashflow,JIOFIN,2024,Limited cash flow history available post-listing,WARNING

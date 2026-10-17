@@ -1,0 +1,12 @@
+table_name,source_file,source_rows,loaded_rows,missing_rows,status
+companies,companies.xlsx,92,92,0,SUCCESS
+sectors,sectors.xlsx,10,10,0,SUCCESS
+profitandloss,profitandloss.xlsx,1073,1073,0,SUCCESS
+balancesheet,balancesheet.xlsx,1058,1058,0,SUCCESS
+cashflow,cashflow.xlsx,1064,1064,0,SUCCESS
+financial_ratios,financial_ratios.xlsx,1041,1041,0,SUCCESS
+stock_prices,stock_prices.xlsx,5520,5520,0,SUCCESS
+documents,documents.xlsx,1456,1456,0,SUCCESS
+prosandcons,prosandcons.xlsx,24,24,0,SUCCESS
+peer_groups,peer_groups.xlsx,248,248,0,SUCCESS
+analysis,analysis.xlsx,0,0,0,SUCCESS

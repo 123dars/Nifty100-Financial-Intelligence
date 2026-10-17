@@ -32,3 +32,6 @@ Thumbs.db
 !output/peer_comparison.xlsx
 !output/cashflow_intelligence.xlsx
 !data/market_cap.xlsx
+!data/nifty100.db
+!output/load_audit.csv
+!output/validation_failures.csv
