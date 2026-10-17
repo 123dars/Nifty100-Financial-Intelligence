@@ -1,0 +1,21 @@
+{
+  "endpoint": "http://localhost:8000/health",
+  "calls": 10,
+  "succeeded": 10,
+  "failed": 0,
+  "total_wall_seconds": 0.033,
+  "avg_latency_s": 0.021,
+  "max_latency_s": 0.026,
+  "statuses": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ]
+}

@@ -1,16 +1,17 @@
-import sys, os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
-import streamlit as st
 import plotly.io as pio
-pio.templates.default = 'plotly_dark'
-import plotly.express as px
+import streamlit as st
+
+pio.templates.default = "plotly_dark"
 import pandas as pd
+import plotly.express as px
+
 from src.dashboard.utils.db import get_all_ratios, get_sectors
 
 st.set_page_config(page_title="Home", layout="wide")
 st.title("Executive Dashboard")
 
-st.markdown('''
+st.markdown(
+    """
 <style>
     /* Metric Cards Styling */
     div[data-testid="metric-container"] {
@@ -41,8 +42,9 @@ st.markdown('''
         font-weight: 400;
     }
 </style>
-''', unsafe_allow_html=True)
-
+""",
+    unsafe_allow_html=True,
+)
 
 
 year = st.sidebar.selectbox("Select Year", list(range(2024, 2018, -1)))
@@ -50,32 +52,40 @@ year = st.sidebar.selectbox("Select Year", list(range(2024, 2018, -1)))
 df = get_all_ratios(year)
 
 if not df.empty:
-    avg_roe = df['return_on_equity_pct'].mean()
-    med_pe = df['pe_ratio'].median()
-    med_de = df['debt_to_equity'].median()
+    avg_roe = df["return_on_equity_pct"].mean()
+    med_pe = df["pe_ratio"].median()
+    med_de = df["debt_to_equity"].median()
     total_companies = len(df)
-    med_rev_cagr = df['revenue_cagr_5yr'].median()
-    debt_free_count = len(df[df['debt_to_equity'] <= 0.1]) # Using <= 0.1 as proxy for debt-free
-    
+    med_rev_cagr = df["revenue_cagr_5yr"].median()
+    debt_free_count = len(
+        df[df["debt_to_equity"] <= 0.1]
+    )  # Using <= 0.1 as proxy for debt-free
+
     col1, col2, col3 = st.columns(3)
     col1.metric("Average ROE", f"{avg_roe:.2f}%" if pd.notna(avg_roe) else "N/A")
     col2.metric("Median P/E", f"{med_pe:.2f}" if pd.notna(med_pe) else "N/A")
     col3.metric("Median D/E", f"{med_de:.2f}" if pd.notna(med_de) else "N/A")
-    
+
     col4, col5, col6 = st.columns(3)
     col4.metric("Total Companies", total_companies)
-    col5.metric("Median Revenue CAGR 5yr", f"{med_rev_cagr:.2f}%" if pd.notna(med_rev_cagr) else "N/A")
+    col5.metric(
+        "Median Revenue CAGR 5yr",
+        f"{med_rev_cagr:.2f}%" if pd.notna(med_rev_cagr) else "N/A",
+    )
     col6.metric("Debt-Free Companies", debt_free_count)
-    
+
     st.markdown("### Sector Breakdown")
     sector_df = get_sectors()
     if not sector_df.empty:
-        fig = px.pie(sector_df, values='count', names='sector', hole=0.4)
+        fig = px.pie(sector_df, values="count", names="sector", hole=0.4)
         st.plotly_chart(fig, use_container_width=True)
-        
+
     st.markdown("### Top 5 Companies by Composite Score")
-    if 'composite_quality_score' in df.columns:
-        top_5 = df.sort_values('composite_quality_score', ascending=False).head(5)
-        st.dataframe(top_5[['company_name', 'sector', 'composite_quality_score']], use_container_width=True)
+    if "composite_quality_score" in df.columns:
+        top_5 = df.sort_values("composite_quality_score", ascending=False).head(5)
+        st.dataframe(
+            top_5[["company_name", "sector", "composite_quality_score"]],
+            use_container_width=True,
+        )
 else:
     st.warning("No data available for the selected year.")

@@ -16,7 +16,19 @@ output/*.csv
 .DS_Store
 Thumbs.db
 
-# Exceptions for Streamlit Deployment
+# Exceptions for Streamlit Deployment & Sprint Deliverables
 !nifty100.db
 !output/capital_allocation.csv
+!output/cluster_labels.csv
+!output/outlier_report.csv
+!output/distress_alerts.csv
+!output/pattern_changes.csv
+!output/pros_cons_generated.csv
+!output/analysis_parsed.csv
+!output/cagr_divergence.csv
+!output/valuation_flags.csv
+!output/valuation_summary.xlsx
+!output/screener_output.xlsx
+!output/peer_comparison.xlsx
+!output/cashflow_intelligence.xlsx
 !data/market_cap.xlsx

@@ -1,9 +1,11 @@
 import sqlite3
-import pandas as pd
-import streamlit as st
 from pathlib import Path
 
+import pandas as pd
+import streamlit as st
+
 DB_PATH = Path("nifty100.db")
+
 
 @st.cache_data(ttl=600)
 def _query(sql, params=()):
@@ -16,9 +18,11 @@ def _query(sql, params=()):
         st.error(f"DB Error: {e}")
         return pd.DataFrame()
 
+
 @st.cache_data(ttl=600)
 def get_companies():
     return _query("SELECT * FROM companies")
+
 
 @st.cache_data(ttl=600)
 def get_all_ratios(year):
@@ -30,6 +34,7 @@ def get_all_ratios(year):
     WHERE f.year = ?
     """
     return _query(sql, [year])
+
 
 @st.cache_data(ttl=600)
 def get_ratios(ticker, year=None):
@@ -45,6 +50,7 @@ def get_ratios(ticker, year=None):
     sql += " ORDER BY f.year DESC"
     return _query(sql, params)
 
+
 @st.cache_data(ttl=600)
 def get_pl(ticker):
     sql = """
@@ -54,6 +60,7 @@ def get_pl(ticker):
     ORDER BY p.year DESC
     """
     return _query(sql, [ticker])
+
 
 @st.cache_data(ttl=600)
 def get_bs(ticker):
@@ -65,6 +72,7 @@ def get_bs(ticker):
     """
     return _query(sql, [ticker])
 
+
 @st.cache_data(ttl=600)
 def get_cf(ticker):
     sql = """
@@ -75,9 +83,13 @@ def get_cf(ticker):
     """
     return _query(sql, [ticker])
 
+
 @st.cache_data(ttl=600)
 def get_sectors():
-    return _query("SELECT sector, COUNT(company_id) as count FROM companies GROUP BY sector")
+    return _query(
+        "SELECT sector, COUNT(company_id) as count FROM companies GROUP BY sector"
+    )
+
 
 @st.cache_data(ttl=600)
 def get_peers(group_name):
@@ -89,15 +101,18 @@ def get_peers(group_name):
     """
     return _query(sql, [group_name])
 
+
 @st.cache_data(ttl=600)
 def get_valuation(ticker):
     import os
-    if os.path.exists('output/valuation_summary.xlsx'):
-        df = pd.read_excel('output/valuation_summary.xlsx')
+
+    if os.path.exists("output/valuation_summary.xlsx"):
+        df = pd.read_excel("output/valuation_summary.xlsx")
         comps = get_companies()
-        cid = comps[comps['ticker'] == ticker]['company_id'].iloc[0]
-        return df[df['company_id'] == cid]
+        cid = comps[comps["ticker"] == ticker]["company_id"].iloc[0]
+        return df[df["company_id"] == cid]
     return pd.DataFrame()
+
 
 @st.cache_data(ttl=600)
 def get_pros_cons(ticker):

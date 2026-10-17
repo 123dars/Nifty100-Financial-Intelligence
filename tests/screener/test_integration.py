@@ -28,29 +28,45 @@ def fixture_db(tmp_path):
         "CREATE TABLE financial_ratios_source (company_id INTEGER, year INTEGER,"
         " pe_ratio REAL, pb_ratio REAL, dividend_yield REAL)"
     )
-    con.execute("CREATE TABLE profitandloss (company_id INTEGER, year INTEGER, interest REAL, sales REAL, net_profit REAL)")
+    con.execute(
+        "CREATE TABLE profitandloss (company_id INTEGER, year INTEGER, interest REAL, sales REAL, net_profit REAL)"
+    )
 
     companies = [
         # id, ticker, name, sector
-        (1, "PASSCO", "Pass Co", "Industrials"),       # passes everything
-        (2, "LOWROE", "Low Roe", "Industrials"),       # fails ROE
-        (3, "FINBK", "Fin Bank", "Financials"),        # high D/E waived -> passes
-        (4, "DEBTFR", "Debt Free", "Industrials"),    # debt 0, interest 0 -> ICR inf
-        (5, "HIDEBT", "Hi Debt", "Materials"),         # high D/E non-fin -> fails
-        (6, "HICOV", "Hi Cover", "Healthcare"),        # very high ICR
-        (7, "ZEROINT", "Zero Int", "Energy"),          # interest 0 -> ICR inf
-        (8, "MISROE", "Miss Roe", "Industrials"),      # missing ROE -> fails
-        (9, "MULTIY", "Multi Year", "Industrials"),    # two years; latest (2024) passes
+        (1, "PASSCO", "Pass Co", "Industrials"),  # passes everything
+        (2, "LOWROE", "Low Roe", "Industrials"),  # fails ROE
+        (3, "FINBK", "Fin Bank", "Financials"),  # high D/E waived -> passes
+        (4, "DEBTFR", "Debt Free", "Industrials"),  # debt 0, interest 0 -> ICR inf
+        (5, "HIDEBT", "Hi Debt", "Materials"),  # high D/E non-fin -> fails
+        (6, "HICOV", "Hi Cover", "Healthcare"),  # very high ICR
+        (7, "ZEROINT", "Zero Int", "Energy"),  # interest 0 -> ICR inf
+        (8, "MISROE", "Miss Roe", "Industrials"),  # missing ROE -> fails
+        (9, "MULTIY", "Multi Year", "Industrials"),  # two years; latest (2024) passes
     ]
-    con.executemany("INSERT INTO profitandloss VALUES (?,?,?,?,?)", [(c[0], 2024, 100, 5000, 1000) for c in companies])
     con.executemany(
-        "INSERT INTO companies VALUES (?, ?, ?, ?, 'TestInd')", companies
+        "INSERT INTO profitandloss VALUES (?,?,?,?,?)",
+        [(c[0], 2024, 100, 5000, 1000) for c in companies],
     )
+    con.executemany("INSERT INTO companies VALUES (?, ?, ?, ?, 'TestInd')", companies)
 
     def fr(cid, yr, roe, npm, opm, de, icr, debt):
         return (
-            cid, yr, roe, npm, opm, de, icr, 1.0, 50.0, debt, 40.0,
-            10.0, 18.0, 15.0, 50.0,
+            cid,
+            yr,
+            roe,
+            npm,
+            opm,
+            de,
+            icr,
+            1.0,
+            50.0,
+            debt,
+            40.0,
+            10.0,
+            18.0,
+            15.0,
+            50.0,
         )
 
     ratios = [
@@ -62,7 +78,7 @@ def fixture_db(tmp_path):
         fr(6, 2024, 22.0, 17.0, 23.0, 0.2, 636.0, 50.0),
         fr(7, 2024, 21.0, 16.0, 22.0, 0.3, None, 200.0),
         fr(8, 2024, None, 16.0, 22.0, 0.3, 12.0, 100.0),
-        fr(9, 2022, 4.0, 2.0, 5.0, 5.0, 1.0, 900.0),   # old failing year
+        fr(9, 2022, 4.0, 2.0, 5.0, 5.0, 1.0, 900.0),  # old failing year
         fr(9, 2024, 20.0, 15.0, 20.0, 0.4, 11.0, 90.0),  # latest passing year
     ]
     con.executemany(
@@ -135,6 +151,10 @@ def test_source_db_not_mutated(fixture_db):
 
     before = hashlib.md5(open(fixture_db, "rb").read()).hexdigest()
     cfg = load_screener_config()
-    screen(filters=[{"metric": "roe", "operator": "gte", "value": 0}], db_path=fixture_db, config=cfg)
+    screen(
+        filters=[{"metric": "roe", "operator": "gte", "value": 0}],
+        db_path=fixture_db,
+        config=cfg,
+    )
     after = hashlib.md5(open(fixture_db, "rb").read()).hexdigest()
     assert before == after

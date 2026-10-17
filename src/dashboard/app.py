@@ -1,14 +1,11 @@
-import sys, os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
 import streamlit as st
 
 st.set_page_config(
-    page_title="Nifty 100 Analytics",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    page_title="Nifty 100 Analytics", layout="wide", initial_sidebar_state="expanded"
 )
 
-st.markdown('''
+st.markdown(
+    """
 <style>
     .hero-container {
         display: flex;
@@ -44,11 +41,16 @@ st.markdown('''
     <div class="hero-subtitle">Institutional-grade financial analytics, peer comparisons, and automated screener for India's top 100 equities.</div>
     <div style="color: #444; font-size: 0.9rem; margin-top: 50px;">Please select a module from the sidebar to begin.</div>
 </div>
-''', unsafe_allow_html=True)
-st.markdown('''
+""",
+    unsafe_allow_html=True,
+)
+st.markdown(
+    """
 <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
 </style>
-''', unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)

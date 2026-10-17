@@ -1,0 +1,67 @@
+version: 1
+
+# Sprint 6 — Stock clustering & performance monitoring.
+# Feature columns validated against nifty100.db on 2026-10-09:
+#   financial_ratios (92 rows at 2024, 0-9 NULLs per column, all vary)
+#   financial_ratios_source (90 rows at 2024; 2 companies imputed)
+# One row per company at latest available financial_ratios.year (2024).
+
+clustering:
+  n_clusters: 5
+  random_state: 42
+  n_init: 10
+  max_iter: 300
+  imputation_strategy: median
+  elbow_max_k: 10
+  outlier_z_threshold: 3.0
+  as_of_year: null  # null = latest available year per company
+  min_eligible_companies: 5
+  # Explicit allowlist: company/year/ID columns must never enter KMeans.
+  feature_columns:
+    - net_profit_margin_pct
+    - operating_profit_margin_pct
+    - return_on_equity_pct
+    - debt_to_equity
+    - interest_coverage
+    - asset_turnover
+    - revenue_cagr_5yr
+    - pat_cagr_5yr
+    - pe_ratio
+    - dividend_yield
+  feature_sources:
+    net_profit_margin_pct: financial_ratios
+    operating_profit_margin_pct: financial_ratios
+    return_on_equity_pct: financial_ratios
+    debt_to_equity: financial_ratios
+    interest_coverage: financial_ratios
+    asset_turnover: financial_ratios
+    revenue_cagr_5yr: financial_ratios
+    pat_cagr_5yr: financial_ratios
+    pe_ratio: financial_ratios_source
+    dividend_yield: financial_ratios_source
+
+storage:
+  assignments_table: cluster_assignments
+  runs_table: cluster_runs
+  artifacts_dir: artifacts/clustering
+  elbow_plot: artifacts/clustering/elbow.png
+  correlation_heatmap: artifacts/clustering/correlation_heatmap.png
+  outliers_csv: artifacts/clustering/outliers.csv
+  profiles_csv: artifacts/clustering/cluster_profiles.csv
+
+performance:
+  api:
+    base_url_env: N100_API_BASE_URL
+    endpoint: /health
+    concurrent_calls: 10
+    max_total_seconds: 10.0
+    request_timeout_seconds: 15.0
+  dashboard:
+    base_url_env: N100_DASHBOARD_URL
+    default_url: http://localhost:8501
+    max_load_seconds: 3.0
+  ports:
+    dashboard_env: N100_DASHBOARD_PORT
+    dashboard_default: 8501
+    api_env: N100_API_PORT
+    api_default: 8000

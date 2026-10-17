@@ -54,7 +54,9 @@ def test_unknown_operator_raises():
         evaluate_operator("between", 1, 2)
 
 
-@pytest.mark.parametrize("bad", [None, float("nan"), float("inf"), float("-inf"), "", "N/A", "null", "abc"])
+@pytest.mark.parametrize(
+    "bad", [None, float("nan"), float("inf"), float("-inf"), "", "N/A", "null", "abc"]
+)
 def test_missing_values_fail_every_operator(bad):
     for op in ("gt", "gte", "lt", "lte", "eq", "neq"):
         assert apply_single_filter(bad, op, 10) is False
@@ -98,7 +100,9 @@ def test_screen_result_schema_single_company(tmp_path):
 
     db = tmp_path / "mini.db"
     con = sqlite3.connect(db)
-    con.execute("CREATE TABLE companies (company_id INTEGER PRIMARY KEY, ticker TEXT, company_name TEXT, sector TEXT, industry TEXT)")
+    con.execute(
+        "CREATE TABLE companies (company_id INTEGER PRIMARY KEY, ticker TEXT, company_name TEXT, sector TEXT, industry TEXT)"
+    )
     con.execute(
         "CREATE TABLE financial_ratios (company_id INTEGER, year INTEGER, return_on_equity_pct REAL,"
         " net_profit_margin_pct REAL, operating_profit_margin_pct REAL, debt_to_equity REAL,"
@@ -110,9 +114,15 @@ def test_screen_result_schema_single_company(tmp_path):
         "CREATE TABLE financial_ratios_source (company_id INTEGER, year INTEGER,"
         " pe_ratio REAL, pb_ratio REAL, dividend_yield REAL)"
     )
-    con.execute("CREATE TABLE profitandloss (company_id INTEGER, year INTEGER, interest REAL, sales REAL, net_profit REAL)")
-    con.execute("INSERT INTO companies VALUES (1, 'AAA', 'AAA Ltd', 'Industrials', 'X')")
-    con.execute("INSERT INTO financial_ratios VALUES (1, 2024, 20, 15, 20, 0.5, 12, 1.0, 50, 100, 40, 10, 18, 15, 50)")
+    con.execute(
+        "CREATE TABLE profitandloss (company_id INTEGER, year INTEGER, interest REAL, sales REAL, net_profit REAL)"
+    )
+    con.execute(
+        "INSERT INTO companies VALUES (1, 'AAA', 'AAA Ltd', 'Industrials', 'X')"
+    )
+    con.execute(
+        "INSERT INTO financial_ratios VALUES (1, 2024, 20, 15, 20, 0.5, 12, 1.0, 50, 100, 40, 10, 18, 15, 50)"
+    )
     con.execute("INSERT INTO financial_ratios_source VALUES (1, 2024, 20, 5, 2.5)")
     con.execute("INSERT INTO profitandloss VALUES (1, 2024, 100, 5000, 1000)")
     con.commit()

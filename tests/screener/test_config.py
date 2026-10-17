@@ -3,7 +3,6 @@
 import copy
 
 import pytest
-import yaml
 
 from src.screener.engine import load_screener_config, validate_config
 

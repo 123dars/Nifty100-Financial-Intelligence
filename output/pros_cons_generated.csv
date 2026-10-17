@@ -1,0 +1,540 @@
+company_id,type,rule_id,text,confidence_pct
+1,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+1,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+1,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+1,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+1,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+1,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+1,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+1,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+2,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+2,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+2,con,1,Debt-to-equity ratio of 2.9 is elevated for a non-financial company and warrants monitoring,90
+2,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+3,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+3,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+3,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+3,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+3,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+4,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+4,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+4,con,1,Debt-to-equity ratio of 6.6 is elevated for a non-financial company and warrants monitoring,90
+4,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+5,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+5,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+5,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+5,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+6,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+6,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+6,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+6,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+6,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+6,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+7,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+7,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+7,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+7,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+8,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+8,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+8,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+8,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+8,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+8,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+9,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+9,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+9,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+9,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+9,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+9,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+9,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+9,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+9,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+10,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+10,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+10,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+10,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+10,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+11,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+11,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+11,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+11,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+11,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+12,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+12,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+12,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+12,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+12,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+12,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+13,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+13,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+13,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+13,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+13,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+13,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+13,con,2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,95
+13,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+13,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+14,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+14,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+14,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+14,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+14,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+14,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+14,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+14,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+15,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+15,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+15,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+15,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+15,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+15,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+15,con,2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,95
+15,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+15,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+16,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+16,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+16,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+16,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+16,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+16,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+16,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+16,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+17,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+17,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+17,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+18,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+18,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+18,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+18,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+18,con,1,Debt-to-equity ratio of 2.6 is elevated for a non-financial company and warrants monitoring,90
+19,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+19,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+19,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+20,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+20,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+20,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+20,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+20,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+20,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+20,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+20,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+21,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+21,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+21,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+21,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+21,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+22,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+22,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+22,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+22,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+23,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+23,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+23,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+23,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+23,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+23,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+23,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+23,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+23,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+23,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+24,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+24,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+24,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+24,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+24,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+24,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+24,con,2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,95
+24,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+24,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+25,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+25,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+25,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+25,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+25,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+25,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+25,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+26,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+26,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+26,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+26,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+26,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+26,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+26,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+26,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+26,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+27,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+27,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+27,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+27,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+27,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+28,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+28,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+28,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+28,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+29,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+29,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+29,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+29,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+29,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+29,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+29,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+30,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+30,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+30,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+30,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+30,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+30,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+30,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+31,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+31,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+31,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+31,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+31,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+31,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+31,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+32,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+32,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+32,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+32,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+32,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+32,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+33,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+34,con,4,Company reported a net loss in the most recent financial year,100
+34,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+35,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+35,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+35,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+35,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+36,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+36,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+36,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+36,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+36,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+36,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+36,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+36,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+36,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+37,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+37,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+37,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+38,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+38,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+38,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+38,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+38,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+38,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+39,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+39,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+39,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+39,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+39,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+39,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+39,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+39,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+39,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+40,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+40,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+40,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+40,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+41,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+41,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+41,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+41,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+41,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+42,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+42,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+42,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+42,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+43,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+43,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+43,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+43,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+43,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+43,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+43,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+44,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+44,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+44,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+44,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+44,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+44,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+44,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+44,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+44,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+44,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+45,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+45,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+45,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+45,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+45,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+45,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+46,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+46,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+46,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+47,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+47,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+47,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+47,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+47,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+47,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+47,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+47,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+47,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+47,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+47,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+48,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+48,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+48,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+48,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+48,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+48,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+48,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+48,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+49,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+49,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+49,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+49,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+49,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+49,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+50,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+50,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+50,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+50,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+50,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+51,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+51,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+51,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+51,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+51,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+51,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+51,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+51,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+52,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+52,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+52,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+52,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+52,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+52,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+52,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+52,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+53,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+53,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+53,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+53,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+53,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+53,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+53,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+53,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+53,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+54,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+54,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+55,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+55,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+55,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+55,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+55,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+55,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+56,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+56,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+56,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+56,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+56,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+56,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+57,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+57,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+57,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+58,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+58,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+58,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+58,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+58,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+58,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+58,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+59,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+59,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+59,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+59,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+59,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+59,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+59,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+59,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+60,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+60,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+60,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+60,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+60,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+61,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+61,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+62,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+62,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+62,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+62,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+62,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+62,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+62,con,3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+62,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+63,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+63,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+63,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+64,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+64,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+64,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+64,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+64,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+65,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+65,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+66,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+66,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+66,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+66,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+66,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+67,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+67,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+67,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+67,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+67,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+67,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+67,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+68,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+68,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+68,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+68,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+68,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+68,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+68,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+68,con,12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,75
+69,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+69,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+70,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+70,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+70,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+71,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+71,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+71,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+71,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+71,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+72,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+72,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+72,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+73,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+73,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+73,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+74,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+74,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+74,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+74,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+74,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+74,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+75,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+75,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+75,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+75,con,2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,95
+75,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+76,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+76,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+76,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+77,pro,3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100
+77,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+77,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+77,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+79,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+79,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+79,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+79,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+80,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+80,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+80,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+80,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+80,con,2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,95
+80,con,6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,85
+80,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+80,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+81,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+81,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+81,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+81,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+81,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+81,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+82,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+82,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+82,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+82,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+82,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+82,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+82,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+82,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+83,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+83,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+83,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+83,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+83,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+83,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+84,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+84,pro,12,Growing asset base funded by internal accruals reflects self-sustaining growth,80
+84,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+85,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+85,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+86,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+86,con,4,Company reported a net loss in the most recent financial year,100
+86,con,5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,90
+86,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+87,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+87,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+87,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+87,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+87,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+87,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+88,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+88,pro,7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+89,pro,1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,90
+89,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+89,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+89,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+89,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+89,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+89,con,8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,80
+90,pro,2,Strong free cash flow generation over 5 years signals healthy business fundamentals,95
+90,pro,5,Operating profit margin above 25% indicates strong pricing power and cost discipline,80
+90,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+90,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+90,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+91,pro,4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85
+91,pro,6,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+91,pro,8,Consistent dividend yield above 2% backed by positive free cash flow,80
+91,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+91,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+91,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+92,pro,9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85
+92,pro,10,Return on equity improving for 3 consecutive years shows strengthening business quality,75
+92,pro,11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70
+92,con,1,Debt-to-equity ratio of 3.8 is elevated for a non-financial company and warrants monitoring,90
+92,con,2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,95
+92,con,7,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",90
+92,con,11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,80
+1,con,99,Subject to normal macroeconomic and sectoral risks,61
+6,con,99,Subject to normal macroeconomic and sectoral risks,61
+10,con,99,Subject to normal macroeconomic and sectoral risks,61
+17,con,99,Subject to normal macroeconomic and sectoral risks,61
+19,pro,99,Maintains basic operational continuity in core markets,61
+21,con,99,Subject to normal macroeconomic and sectoral risks,61
+25,con,99,Subject to normal macroeconomic and sectoral risks,61
+28,con,99,Subject to normal macroeconomic and sectoral risks,61
+31,con,99,Subject to normal macroeconomic and sectoral risks,61
+32,con,99,Subject to normal macroeconomic and sectoral risks,61
+33,con,99,Subject to normal macroeconomic and sectoral risks,61
+34,pro,99,Maintains basic operational continuity in core markets,61
+42,con,99,Subject to normal macroeconomic and sectoral risks,61
+46,con,99,Subject to normal macroeconomic and sectoral risks,61
+50,con,99,Subject to normal macroeconomic and sectoral risks,61
+51,con,99,Subject to normal macroeconomic and sectoral risks,61
+54,pro,99,Maintains basic operational continuity in core markets,61
+64,con,99,Subject to normal macroeconomic and sectoral risks,61
+65,con,99,Subject to normal macroeconomic and sectoral risks,61
+70,con,99,Subject to normal macroeconomic and sectoral risks,61
+72,con,99,Subject to normal macroeconomic and sectoral risks,61
+78,pro,99,Maintains basic operational continuity in core markets,61
+78,con,99,Subject to normal macroeconomic and sectoral risks,61
+79,con,99,Subject to normal macroeconomic and sectoral risks,61
+88,con,99,Subject to normal macroeconomic and sectoral risks,61
+90,con,99,Subject to normal macroeconomic and sectoral risks,61
+91,con,99,Subject to normal macroeconomic and sectoral risks,61

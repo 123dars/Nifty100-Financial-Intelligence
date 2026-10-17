@@ -1,0 +1,51 @@
+company_id,year,previous_pattern,current_pattern
+1,2024.0,Reinvestor,Shareholder Returns
+2,2024.0,Mixed,Shareholder Returns
+3,2024.0,Shareholder Returns,Mixed
+4,2024.0,Shareholder Returns,Mixed
+9,2024.0,Reinvestor,Shareholder Returns
+10,2024.0,Mixed,Shareholder Returns
+11,2024.0,Mixed,Growth Funded by Debt
+12,2024.0,Liquidating Assets,Reinvestor
+16,2024.0,Pre-Revenue,Growth Funded by Debt
+17,2024.0,Liquidating Assets,Shareholder Returns
+22,2024.0,Shareholder Returns,Liquidating Assets
+23,2024.0,Growth Funded by Debt,Reinvestor
+25,2024.0,Shareholder Returns,Reinvestor
+26,2024.0,Shareholder Returns,Reinvestor
+27,2024.0,Reinvestor,Shareholder Returns
+28,2024.0,Shareholder Returns,Reinvestor
+29,2024.0,Shareholder Returns,Mixed
+31,2024.0,Shareholder Returns,Reinvestor
+33,2024.0,Mixed,Shareholder Returns
+34,2024.0,Shareholder Returns,Mixed
+37,2024.0,Liquidating Assets,Shareholder Returns
+39,2024.0,Mixed,Liquidating Assets
+40,2024.0,Mixed,Shareholder Returns
+41,2024.0,Reinvestor,Shareholder Returns
+43,2024.0,Reinvestor,Shareholder Returns
+44,2024.0,Growth Funded by Debt,Mixed
+46,2024.0,Reinvestor,Unknown
+47,2024.0,Reinvestor,Shareholder Returns
+48,2024.0,Growth Funded by Debt,Pre-Revenue
+52,2024.0,Growth Funded by Debt,Shareholder Returns
+53,2024.0,Reinvestor,Liquidating Assets
+54,2024.0,Shareholder Returns,Mixed
+55,2024.0,Shareholder Returns,Unknown
+58,2024.0,Growth Funded by Debt,Mixed
+59,2024.0,Shareholder Returns,Reinvestor
+60,2024.0,Liquidating Assets,Mixed
+61,2024.0,Shareholder Returns,Liquidating Assets
+62,2024.0,Reinvestor,Shareholder Returns
+65,2024.0,Shareholder Returns,Mixed
+73,2024.0,Mixed,Growth Funded by Debt
+76,2024.0,Mixed,Shareholder Returns
+78,2024.0,Growth Funded by Debt,Reinvestor
+80,2024.0,Distress Signal,Growth Funded by Debt
+82,2024.0,Mixed,Shareholder Returns
+83,2024.0,Shareholder Returns,Mixed
+85,2024.0,Mixed,Shareholder Returns
+86,2024.0,Shareholder Returns,Reinvestor
+89,2024.0,Mixed,Reinvestor
+90,2024.0,Mixed,Shareholder Returns
+91,2024.0,Shareholder Returns,Reinvestor

@@ -87,8 +87,12 @@ def test_sector_mapping_is_config_driven(cfg):
 
 def test_de_waiver_can_be_disabled_per_filter(cfg):
     """Debt-free preset opts out: financials must satisfy D/E too."""
-    flt = {"metric": "debt_to_equity", "operator": "lte", "value": 0.1,
-           "apply_exception": False}
+    flt = {
+        "metric": "debt_to_equity",
+        "operator": "lte",
+        "value": 0.1,
+        "apply_exception": False,
+    }
     assert should_waive_de_filter("Financials", cfg, flt) is False
     ok, _ = row_passes_filters(_row(sector="Financials", de=6.8), [flt], cfg)
     assert ok is False
@@ -101,7 +105,10 @@ def test_de_waiver_can_be_disabled_per_filter(cfg):
 
 def test_icr_normal(cfg):
     # EBIT 100 / interest 10 -> 10 (Sprint 2 formula behaviour)
-    assert effective_interest_coverage(_row(icr=10.0, debt=500, interest=10.0), cfg) == 10.0
+    assert (
+        effective_interest_coverage(_row(icr=10.0, debt=500, interest=10.0), cfg)
+        == 10.0
+    )
 
 
 def test_icr_debtfree_zero_interest_is_inf(cfg):

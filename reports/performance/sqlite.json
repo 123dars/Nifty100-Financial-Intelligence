@@ -1,0 +1,18 @@
+{
+  "dashboard_home": {
+    "rows": 92,
+    "best_seconds": 0.0007
+  },
+  "company_profile": {
+    "rows": 14,
+    "best_seconds": 0.0002
+  },
+  "screener_roe_de": {
+    "rows": 1,
+    "best_seconds": 0.0001
+  },
+  "cluster_latest_year": {
+    "rows": 92,
+    "best_seconds": 0.0004
+  }
+}

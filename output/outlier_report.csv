@@ -1,0 +1,14 @@
+company_id,ticker,company_name,fiscal_year,feature,observed_value,z_score,cluster_id
+17,BEL,Bharat Electronics Ltd,2024,asset_turnover,125.88819875776397,7.722584240512429,2
+36,HAL,Hindustan Aeronautics Ltd,2024,asset_turnover,67.51333333333334,4.039048886125662,2
+47,INDIGO,Interglobe Aviation Ltd,2024,asset_turnover,56.38625204582652,3.3369145511570157,0
+16,BANKBARODA,Bank of Baroda,2024,debt_to_equity,12.143718727289434,3.6784474556270066,0
+23,CANBK,Canara Bank,2024,debt_to_equity,14.867419925542423,4.633271335761823,0
+14,BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2024,interest_coverage,3764.5,7.528807617394199,3
+15,BAJFINANCE,Bajaj Finance Ltd,2024,interest_coverage,2689.1666666666665,5.304478486309664,4
+14,BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2024,net_profit_margin_pct,432.7262044653349,9.134216746855435,3
+23,CANBK,Canara Bank,2024,pat_cagr_5yr,85.7752850068174,3.0010423421564845,0
+47,INDIGO,Interglobe Aviation Ltd,2024,pat_cagr_5yr,120.69250867467933,4.621446151534123,0
+17,BEL,Bharat Electronics Ltd,2024,return_on_equity_pct,4744.047619047619,7.251335347124028,2
+36,HAL,Hindustan Aeronautics Ltd,2024,return_on_equity_pct,3816.5829145728644,5.795677648846988,2
+91,TRENT,Trent Ltd,2024,revenue_cagr_5yr,36.30691600183056,3.1639051857620735,0

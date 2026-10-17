@@ -80,9 +80,6 @@ def test_preset_count_within_5_and_50(cfg, results, preset, capsys=None):
 
 def test_preset_count_report(results):
     """Human-readable report (also serves as the required count table)."""
-    lines = [
-        f"{name:22s} -> {results[name]['matched_count']}"
-        for name in PRESETS
-    ]
+    lines = [f"{name:22s} -> {results[name]['matched_count']}" for name in PRESETS]
     report = "\n".join(lines)
     assert all(5 <= results[n]["matched_count"] <= 50 for n in PRESETS), report

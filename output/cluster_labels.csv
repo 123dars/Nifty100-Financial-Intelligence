@@ -1,0 +1,95 @@
+company_id,ticker,company_name,sector,cluster_id,cluster_name,fiscal_year
+1,ABB,Abbott India Ltd,Industrials,4,Balanced Financial Profile — Cluster 4,2024
+2,ADANIENSOL,Adani Energy Solutions Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+3,ADANIENT,Adani Enterprises Ltd,Industrials,4,Balanced Financial Profile — Cluster 4,2024
+4,ADANIGREEN,Adani Green Energy Ltd,Energy,0,Growth-Oriented + High-Leverage Companies,2024
+5,ADANIPORTS,Adani Ports & Special Economic Zone Ltd,Industrials,4,Balanced Financial Profile — Cluster 4,2024
+6,ADANIPOWER,Adani Power Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+7,AMBUJACEM,Ambuja Cements Ltd,Materials,1,Low-Leverage Companies,2024
+8,APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",Healthcare,1,Low-Leverage Companies,2024
+9,ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Materials,4,Balanced Financial Profile — Cluster 4,2024
+10,ATGL,Adani Total Gas Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+11,AXISBANK,Axis Bank Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+12,BAJAJ-AUTO,Bajaj Auto Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+13,BAJAJFINSV,Bajaj Finserv Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+14,BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,3,High Profitability + Growth-Oriented Companies,2024
+15,BAJFINANCE,Bajaj Finance Ltd,Financials,4,Balanced Financial Profile — Cluster 4,2024
+16,BANKBARODA,Bank of Baroda,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+17,BEL,Bharat Electronics Ltd,Industrials,2,High Profitability Companies,2024
+18,BHARTIARTL,Bharti Airtel Ltd,Communication Services,4,Balanced Financial Profile — Cluster 4,2024
+19,BHEL,Bharat Heavy Electricals Limited,Industrials,1,Low-Leverage Companies,2024
+20,BOSCHLTD,Bosch Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+21,BPCL,Bharat Petroleum Corporation Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+22,BRITANNIA,Britannia Industries Ltd,Consumer Staples,4,Balanced Financial Profile — Cluster 4,2024
+23,CANBK,Canara Bank,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+24,CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+25,CIPLA,Cipla Ltd,Healthcare,4,Balanced Financial Profile — Cluster 4,2024
+26,COALINDIA,Coal India Ltd,Materials,1,Low-Leverage Companies,2024
+27,DABUR,Dabur India Ltd,Consumer Staples,1,Low-Leverage Companies,2024
+28,DIVISLAB,Divis Laboratories Ltd,Healthcare,4,Balanced Financial Profile — Cluster 4,2024
+29,DLF,DLF Ltd,Real Estate,1,Low-Leverage Companies,2024
+30,DMART,Avenue Supermarts Ltd,Consumer Discretionary,4,Balanced Financial Profile — Cluster 4,2024
+31,DRREDDY,Dr Reddys Laboratories Ltd,Healthcare,4,Balanced Financial Profile — Cluster 4,2024
+32,EICHERMOT,Eicher Motors Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+33,GAIL,GAIL (India) Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+34,GODREJCP,Godrej Consumer Products Ltd,Consumer Staples,1,Low-Leverage Companies,2024
+35,GRASIM,Grasim Industries Ltd,Industrials,4,Balanced Financial Profile — Cluster 4,2024
+36,HAL,Hindustan Aeronautics Ltd,Industrials,2,High Profitability Companies,2024
+37,HAVELLS,Havells India Ltd,Industrials,1,Low-Leverage Companies,2024
+38,HCLTECH,HCL Technologies Ltd,Information Technology,4,Balanced Financial Profile — Cluster 4,2024
+39,HDFCBANK,HDFC Bank Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+40,HDFCLIFE,HDFC Life Insurance Company Ltd,Financials,1,Low-Leverage Companies,2024
+41,HEROMOTOCO,Hero MotoCorp Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+42,HINDALCO,Hindalco Industries Ltd,Materials,4,Balanced Financial Profile — Cluster 4,2024
+43,HINDUNILVR,Hindustan Unilever Ltd,Consumer Staples,1,Low-Leverage Companies,2024
+44,ICICIBANK,ICICI Bank Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+45,ICICIGI,ICICI Lombard General Insurance Company Ltd,Financials,1,Low-Leverage Companies,2024
+46,ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Financials,4,Balanced Financial Profile — Cluster 4,2024
+47,INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,0,Growth-Oriented + High-Leverage Companies,2024
+48,INDUSINDBK,IndusInd Bank Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+49,INFY,Infosys Ltd,Information Technology,1,Low-Leverage Companies,2024
+50,IOC,Indian Oil Corporation,Energy,4,Balanced Financial Profile — Cluster 4,2024
+51,IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Consumer Discretionary,4,Balanced Financial Profile — Cluster 4,2024
+52,IRFC,Indian Railway Finance Corporation Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+53,ITC,ITC Ltd,Consumer Staples,1,Low-Leverage Companies,2024
+54,JINDALSTEL,Jindal Steel & Power Ltd,Materials,4,Balanced Financial Profile — Cluster 4,2024
+55,JIOFIN,Jio Financial Services Ltd,Financials,1,Low-Leverage Companies,2024
+56,JSWENERGY,JSW Energy Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+57,JSWSTEEL,JSW Steel Ltd,Materials,4,Balanced Financial Profile — Cluster 4,2024
+58,KOTAKBANK,Kotak Mahindra Bank Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+59,LICI,Life Insurance Corporation of India,Financials,1,Low-Leverage Companies,2024
+60,LODHA,Macrotech Developers Ltd,Real Estate,1,Low-Leverage Companies,2024
+61,LT,Larsen & Toubro Ltd,Industrials,4,Balanced Financial Profile — Cluster 4,2024
+62,LTIM,LTIMindtree Ltd,Information Technology,1,Low-Leverage Companies,2024
+63,M&M,Mahindra & Mahindra Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+64,MARUTI,Maruti Suzuki India Ltd,Consumer Discretionary,4,Balanced Financial Profile — Cluster 4,2024
+65,MOTHERSON,Samvardhana Motherson International Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+66,NAUKRI,Info Edge (India) Ltd,Communication Services,1,Low-Leverage Companies,2024
+67,NESTLEIND,Nestle India Ltd,Consumer Staples,1,Low-Leverage Companies,2024
+68,NHPC,NHPC Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+69,NTPC,NTPC Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+70,ONGC,Oil & Natural Gas Corpn Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+71,PFC,Power Finance Corporation Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+72,PIDILITIND,Pidilite Industries Ltd,Materials,4,Balanced Financial Profile — Cluster 4,2024
+73,PNB,Punjab National Bank,Financials,4,Balanced Financial Profile — Cluster 4,2024
+74,POWERGRID,Power Grid Corporation of India Ltd,Energy,1,Low-Leverage Companies,2024
+75,RECLTD,REC Ltd,Financials,0,Growth-Oriented + High-Leverage Companies,2024
+76,RELIANCE,Reliance Industries Ltd,Energy,1,Low-Leverage Companies,2024
+77,SBILIFE,SBI Life Insurance Company Ltd,Financials,4,Balanced Financial Profile — Cluster 4,2024
+78,SBIN,State Bank of India,Financials,4,Balanced Financial Profile — Cluster 4,2024
+79,SHREECEM,Shree Cement Ltd,Materials,1,Low-Leverage Companies,2024
+80,SHRIRAMFIN,Shriram Finance Ltd,Financials,4,Balanced Financial Profile — Cluster 4,2024
+81,SIEMENS,Siemens Ltd,Industrials,1,Low-Leverage Companies,2024
+82,SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Healthcare,1,Low-Leverage Companies,2024
+83,TATACONSUM,Tata Consumer Products Ltd,Consumer Staples,4,Balanced Financial Profile — Cluster 4,2024
+84,TATAMOTORS,Tata Motors Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+85,TATAPOWER,Tata Power Company Ltd,Energy,4,Balanced Financial Profile — Cluster 4,2024
+86,TATASTEEL,Tata Steel Ltd,Materials,4,Balanced Financial Profile — Cluster 4,2024
+87,TCS,Tata Consultancy Services Ltd,Information Technology,4,Balanced Financial Profile — Cluster 4,2024
+88,TECHM,Tech Mahindra Ltd,Information Technology,4,Balanced Financial Profile — Cluster 4,2024
+89,TITAN,Titan Company Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
+90,TORNTPHARM,Torrent Pharmaceuticals Ltd,Healthcare,4,Balanced Financial Profile — Cluster 4,2024
+91,TRENT,Trent Ltd,Consumer Discretionary,0,Growth-Oriented + High-Leverage Companies,2024
+92,TVSMOTOR,TVS Motor Company Ltd,Consumer Discretionary,1,Low-Leverage Companies,2024
