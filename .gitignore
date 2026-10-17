@@ -15,6 +15,7 @@ output/*.csv
 .idea/
 .DS_Store
 Thumbs.db
+*.zip
 
 # Exceptions for Streamlit Deployment & Sprint Deliverables
 !nifty100.db
